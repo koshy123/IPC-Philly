@@ -1,7 +1,7 @@
 import React from 'react'
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header} from './containers'
 import { Navbar, Brand, CTA } from './components';
-
+import './App.css'
 function App() {
   return (
     <div className="App">
@@ -16,9 +16,8 @@ function App() {
     <CTA />
     <Blog />
     <Footer />
-    
     </div>
   );
-}
+};
 
 export default App;
