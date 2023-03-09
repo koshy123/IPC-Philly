@@ -6,12 +6,16 @@ import title from "../../assets/ipcTitle.png"
 const Navbar = () => {
   return (
     <div className='gpt3__navbar'>
-      <div className='gpt3__navbar-links_logo'>
+      <div className='gpt3__navbar-links'>
         <div className='gpt3__navbar-links_logo'>
-          <img src={title} alt="logo" />
+          <img src={title} alt="logo"  />
         </div>
         <div className='gpt3__navbar-links_container'> 
-          <p></p>
+          <p> <a href="#home">Home</a></p>
+          <p> <a href="#home">About</a></p>
+          <p> <a href="#home">Events</a></p>
+          <p> <a href="#home">Watch/Live</a></p>
+          <p> <a href="#home">Contact</a></p>
         </div>
       </div>
     </div>
