@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./navbar.css";
 import { RiMenu3Line, RiCloseLin } from 'react-icons/ri';
-import title from "../../assets/ipcTitle.png"
+import title from "../../assets/ipcLogo.jpg"
 //BEM, aka Block Element Modifier
 const Navbar = () => {
+  const[toggleMenu, setToggleMenu] = useState(false)
+
   return (
     <div className='gpt3__navbar'>
       <div className='gpt3__navbar-links'>
@@ -17,6 +19,11 @@ const Navbar = () => {
           <p> <a href="#home">Watch/Live</a></p>
           <p> <a href="#home">Contact</a></p>
         </div>
+        <div className='gpt3__navbar-sign'>
+          <p>Sign in</p>
+        <button type='button'>Sign up</button>
+        </div>
+        <div className='gpt3__navbar-menu'></div>
       </div>
     </div>
   )
