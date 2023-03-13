@@ -15,6 +15,7 @@ const Menu = () => {
   <p> <a href="#home">Contact</a></p>
 </>
 }
+
 const Navbar = () => {
   const[toggleMenu, setToggleMenu] = useState(false)
 
