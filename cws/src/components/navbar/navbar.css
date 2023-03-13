@@ -103,8 +103,29 @@ cursor: pointer;
     .ipc__navbar-links_container {
         display: none;
     }
- }
-
- .ipc__navbar-menu {
+     .ipc__navbar-menu {
     display: flex;
  }
+ }
+
+ @media screen and (max-width: 700px) {
+
+    .ipc__navbar-menu {
+    padding: 2rem 4rem;
+ }
+ }
+
+ @media screen and (max-width: 550px) {
+    .ipc__navbar-menu {
+    padding: 2rem ;
+ }
+
+ .ipc__navbar-sign {
+    display: none;
+ }
+ }
+
+
+
+
+
