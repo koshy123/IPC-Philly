@@ -123,7 +123,16 @@ cursor: pointer;
  .ipc__navbar-sign {
     display: none;
  }
- }
+
+.ipc__navbar-menu_container {
+   margin-top: 50%;
+}
+
+.ipc__navbar-menu_container-links-sign {
+   display: block;
+}
+
+}
 
 
 
