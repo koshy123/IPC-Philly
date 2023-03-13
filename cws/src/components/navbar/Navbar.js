@@ -40,13 +40,17 @@ const Navbar = () => {
         <div className='ipc__navbar-menu'>
         {
           toggleMenu 
-          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
         }
         {toggleMenu && (
           <div className='ipc__navbar-menu_container scale-up-center'>
           <div className='ipc__navbar-menu_container-links'>
-          <Menu/>
+          <p> <a href="#home">Home</a></p>
+          <p> <a href="#home">About</a></p>
+          <p> <a href="#home">Events</a></p>
+          <p> <a href="#home">Watch/Live</a></p>
+          <p> <a href="#home">Contact</a></p>
           </div>
           </div>
         )}
