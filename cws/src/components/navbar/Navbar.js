@@ -7,13 +7,15 @@ import title from "../../assets/ipcLogo.jpg"
 
 
 const Menu = () => {
-  <> 
-  <p> <a href="#home">Home</a></p>
-  <p> <a href="#home">About</a></p>
-  <p> <a href="#home">Events</a></p>
-  <p> <a href="#home">Watch/Live</a></p>
-  <p> <a href="#home">Contact</a></p>
-</>
+  return (
+    <div>
+      <p> <a href="#home">Home</a></p>
+      <p> <a href="#home">About</a></p>
+      <p> <a href="#home">Events</a></p>
+      <p> <a href="#home">Watch/Live</a></p>
+      <p> <a href="#home">Contact</a></p>
+    </div>
+  );
 }
 
 const Navbar = () => {
