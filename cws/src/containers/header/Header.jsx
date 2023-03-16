@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className='ipc__header section__padding id="home'>
       <div className='ipc__header-content'>
-        <h1 className='gradient__text'> Lets grow together and become a family</h1>
+        <h1 className='gradient__text'> Lets grow together </h1>
 
         <div className='ipc__header-content__input'>
           <input type="email" placeholder='your email address'></input>
@@ -17,13 +17,13 @@ const Header = () => {
 
         <div className='ipc__header-content__people'>
           <img src={banner}  />
-          <p>Taste and see that the Lord is Good</p>
+          {/* <p>Taste and see that the Lord is Good</p> */}
         </div>
       </div>
 
       <div className='ipc__header-image'>
         <img src={preacher} />
-        <p>And the Word became Flesh</p>
+        {/* <p>And the Word became Flesh</p> */}
       </div>
     </div>
   )
