@@ -26,3 +26,13 @@
 .ipc__whatIPC-feature {
     display: flex;
 }
+
+/* Customizing feature component as per needs */
+.ipc__whatIPC-feature .ipc__features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.ipc__whatIPC-feature .ipc__features-container_feature-text {
+    max-width: 700px;
+}

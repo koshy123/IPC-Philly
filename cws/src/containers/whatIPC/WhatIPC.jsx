@@ -11,13 +11,13 @@ const WhatIPC = () => {
       </div>
       </div>
 
-      <div className="ipc__whatgpt3-heading">
+      <div className="ipc__whatIPC-heading">
       <h1 className="gradient__text">Living for God</h1>
       <p>Explore Our Library</p>
     </div>
     <div className="ipc__whatIPC-container">
       <Feature title="LiveStream" text="We are streaming live on Youtube every Sunday at 9:30am(EST)." />
-      <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Feature title="Upcoming Events" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
       <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
     </div>
 
