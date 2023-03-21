@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import "./navbar.css";
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import title from "../../assets/ipcLogo.jpg"
 //BEM, aka Block Element Modifier
 
