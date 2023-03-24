@@ -13,8 +13,8 @@ function App() {
     <WhatIPC />
     <Features />
     <Possibility />
-    <CTA />
-    <Blog />
+    {/* <CTA />
+    <Blog /> */}
     <Footer />
     </div>
   );
