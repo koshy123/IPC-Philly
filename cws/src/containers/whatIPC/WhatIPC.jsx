@@ -18,7 +18,7 @@ const WhatIPC = () => {
     <div className="ipc__whatIPC-container">
       <Feature title="Sunday Service" text="Service starts Sunday at 10:30am (every second Sunday, service starts at 9:30am)" />
       <Feature title="Live Stream" text="We are streaming live on Youtube every Sunday at 9:30am(EST)." />
-      <Feature title="Location" text="We " />
+      <Feature title="Location" text=" " />
     </div>
 
   </div>

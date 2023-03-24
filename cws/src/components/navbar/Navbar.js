@@ -29,10 +29,10 @@ const Navbar = () => {
         </div>
         <div className='ipc__navbar-links_container'> 
           <p> <a href="#home">Home</a></p>
-          <p> <a href="#home">About</a></p>
-          <p> <a href="#home">Events</a></p>
-          <p> <a href="#home">Watch/Live</a></p>
-          <p> <a href="#home">Contact</a></p>
+          <p> <a href="#about">About</a></p>
+          <p> <a href="#events">Events</a></p>
+          <p> <a href="#live">Watch Live</a></p>
+          <p> <a href="#contact">Contact</a></p>
         </div>
         </div>
         <div className='ipc__navbar-sign'>
