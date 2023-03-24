@@ -12,13 +12,13 @@ const WhatIPC = () => {
       </div>
 
       <div className="ipc__whatIPC-heading">
-      <h1 className="gradient__text">Living for God</h1>
-      <p>Explore Our Library</p>
+      <h1 className="gradient__text">"Taste and see that the Lord is good"</h1>
+      <p>Experience his presence</p>
     </div>
     <div className="ipc__whatIPC-container">
-      <Feature title="LiveStream" text="We are streaming live on Youtube every Sunday at 9:30am(EST)." />
-      <Feature title="Upcoming Events" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-      <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Feature title="Sunday Service" text="Service starts Sunday at 10:30am (every second Sunday, service starts at 9:30am)" />
+      <Feature title="Live Stream" text="We are streaming live on Youtube every Sunday at 9:30am(EST)." />
+      <Feature title="Location" text="We " />
     </div>
 
   </div>
