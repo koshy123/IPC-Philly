@@ -64,8 +64,8 @@
 }
 
 .ipc__footer-links_logo img {
-    width: 118px;
-    height: 30px;
+    width: 100%;
+    height: auto;
 
     margin-bottom: 1rem;
 }

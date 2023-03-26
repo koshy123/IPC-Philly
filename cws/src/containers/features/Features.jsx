@@ -6,19 +6,23 @@ const Features = () => {
 
   const featuresData = [
     {
-      title: 'Improving end distrusts instantly',
+      title: 'The One True God     ',
+      text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
+    },
+    {
+      title: 'Salvation',
       text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
     },
     {
-      title: 'Become the tended active',
+      title: 'Baptism with the Holy Spirit',
       text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
     },
     {
-      title: 'Message or am nothing',
+      title: 'Second Coming Of Jesus     ',
       text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
     },
     {
-      title: 'Really boy law county',
+      title: 'THE ONE TRUE GOD      ',
       text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush..',
     },
   ];
@@ -26,8 +30,8 @@ const Features = () => {
   return (
     <div className="ipc__features section__padding" id="features">
     <div className="ipc__features-heading">
-      <h1 className="gradient__text">Insert POWERFUL verse</h1>
-      <p>Request Early Access to Get Started</p>
+      <h1 className="gradient__text">“For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life." -John 3:16</h1>
+      <p>Our Beliefs</p>
     </div>
     <div className="ipc__features-container">
       {featuresData.map((item, index) => (

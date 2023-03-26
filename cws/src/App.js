@@ -12,7 +12,7 @@ function App() {
     <Brand />
     <WhatIPC />
     <Features />
-    <Possibility />
+    {/* <Possibility /> */}
     {/* <CTA />
     <Blog /> */}
     <Footer />

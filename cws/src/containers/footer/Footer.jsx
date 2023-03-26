@@ -1,6 +1,6 @@
 import React from 'react';
 import "./footer.css";
-import ipcLogo from '../../logo.svg';
+import ipcLogo from '../../assets/ipcTitle.png';
 
 const Footer = () => {
   return (
@@ -16,26 +16,26 @@ const Footer = () => {
     <div className="ipc__footer-links">
       <div className="ipc__footer-links_logo">
         <img src={ipcLogo} alt="ipc_logo" />
-        <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p>
+        {/* <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p> */}
       </div>
       <div className="ipc__footer-links_div">
-        <h4>Links</h4>
-        <p>Overons</p>
-        <p>Social Media</p>
-        <p>Counters</p>
+       <h4>Links</h4>
+        <p>Giving</p>
+        <a  href='https://linktr.ee/ipcphilly?fbclid=IwAR0UbKrWKCCOR7zmbP3Bm2W-gUWNzzm40nWZtmLhJDt8NHM5n4Oz11iV1d8' target="_blank"><p>Social Media</p></a>
+        <p>Livestream</p>
         <p>Contact</p>
       </div>
       <div className="ipc__footer-links_div">
-        <h4>Company</h4>
-        <p>Terms & Conditions </p>
-        <p>Privacy Policy</p>
-        <p>Contact</p>
+        <h4>About</h4>
+        <p>History</p>
+        <p>Who are we</p>
+        <p>Our Team</p>
       </div>
       <div className="ipc__footer-links_div">
         <h4>Get in touch</h4>
-        <p>Crechterwoord K12 182 DK Alknjkcb</p>
-        <p>085-132567</p>
-        <p>info@payme.net</p>
+        <p>7781 Craig Street Philadelphia, PA 19136</p>
+        <p>Ipcphillychurch@gmail.com
+</p>
       </div>
     </div>
 
