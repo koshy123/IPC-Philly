@@ -6,7 +6,7 @@ const Footer = () => {
   return (
 <div className="ipc__footer section__padding">
     <div className="ipc__footer-heading">
-      <h1 className="gradient__text">Walk by faith, not by sight</h1>
+      <h1 className="gradient__text">Walk by faith, not by Sight</h1>
     </div>
 
     {/* <div className="ipc__footer-btn">
