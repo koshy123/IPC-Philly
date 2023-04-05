@@ -1,32 +1,71 @@
-import React from 'react';
-import "./header.css";
-import "../../App.css"
-import preacher from '../../assets/pastor_preach.jpg'
-import banner from '../../assets/ipcTitle.png'
+import { useState, useEffect } from "react";
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
+import { sliderData } from "../../slider-data";
+import "./header.scss";
 
 const Header = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const slideLength = sliderData.length;
+
+  const autoScroll = true;
+  let slideInterval;
+  let intervalTime = 5000;
+
+  const nextSlide = () => {
+    setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
+    console.log("next");
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
+    console.log("prev");
+  };
+
+  function auto() {
+    slideInterval = setInterval(nextSlide, intervalTime);
+  }
+
+  useEffect(() => {
+    setCurrentSlide(0);
+  }, []);
+
+  useEffect(() => {
+    if (autoScroll) {
+      auto();
+    }
+    return () => clearInterval(slideInterval);
+  }, [currentSlide]);
+
   return (
-    <div className='ipc__header section__padding id="home'>
-      <div className='ipc__header-content'>
-        <h1 className='gradient__text'> Lets grow together </h1>
-
-        <div className='ipc__header-content__input'>
-          <input type="email" placeholder='your email address'></input>
-          <button type='button'>Get Involved</button>
-        </div>
-
-        <div className='ipc__header-content__people'>
-          <img src={banner}  />
-          {/* <p>Taste and see that the Lord is Good</p> */}
-        </div>
-      </div>
-
-      <div className='ipc__header-image'>
-        <img src={preacher} />
-        {/* <p>And the Word became Flesh</p> */}
-      </div>
+    <div className="slider">
+      {/* <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
+      <AiOutlineArrowRight className="arrow next" onClick={nextSlide} /> */}
+      {sliderData.map((slide, index) => {
+        return (
+          <div
+            className={index === currentSlide ? "slide current" : "slide"}
+            key={index}
+          >
+            {index === currentSlide && (
+              <div>
+                <img src={slide.image} alt="slide" className="image" />
+                {/* <div className="content">
+                  <h2>{slide.heading}</h2>
+                  <p>{slide.desc}</p>
+                  <hr />
+                  <button className="--btn --btn-primary">Get Started</button>
+                </div> */}
+              </div>
+              
+              
+            )}
+          </div>
+          
+        );
+      })}
+      <div><h1></h1></div>
     </div>
-  )
-}
+  );
+};
 
 export default Header;

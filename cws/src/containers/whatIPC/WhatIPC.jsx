@@ -4,7 +4,7 @@ import "./whatIPC.css";
 
 const WhatIPC = () => {
   return (
-    <div className="ipc__whatIPC section__margin" id="wgpt3">
+    <div className="ipc__whatIPC section__margin" id="ipc">
       <div className='ipc__whatIPC-feature'>
       <div className="ipc__whatIPC-feature">
       <Feature title="What is IPC" text="The Indian Pentecostal Church of God (IPC) is one of the largest Pentecostal Christian Denomination in India,[2] with over 10,000 congregations worldwide. Its organisational headquarters located in Kumbanad, Kerala, India." />

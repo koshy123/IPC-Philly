@@ -10,7 +10,7 @@ const Menu = () => {
   return (
     <div>
       <p> <a href="#home">Home</a></p>
-      <p> <a href="#home">About</a></p>
+      <p> <a href="#ipc">About</a></p>
       <p> <a href="#home">Events</a></p>
       <p> <a href="#home">Watch/Live</a></p>
       <p> <a href="#home">Contact</a></p>
@@ -29,16 +29,16 @@ const Navbar = () => {
         </div>
         <div className='ipc__navbar-links_container'> 
           <p> <a href="#home">Home</a></p>
-          <p> <a href="#about">About</a></p>
+          <p> <a href="#ipc">About</a></p>
           <p> <a href="#events">Events</a></p>
           <p> <a href="#live">Watch Live</a></p>
           <p> <a href="#contact">Contact</a></p>
         </div>
         </div>
-        <div className='ipc__navbar-sign'>
+        {/* <div className='ipc__navbar-sign'>
           <p>Sign in</p>
         <button type='button'>Sign up</button>
-        </div>
+        </div> */}
         <div className='ipc__navbar-menu'>
         {
           toggleMenu 
@@ -49,10 +49,10 @@ const Navbar = () => {
           <div className='ipc__navbar-menu_container scale-up-center'>
           <div className='ipc__navbar-menu_container-links'>
           <p> <a href="#home">Home</a></p>
-          <p> <a href="#home">About</a></p>
-          <p> <a href="#home">Events</a></p>
-          <p> <a href="#home">Watch/Live</a></p>
-          <p> <a href="#home">Contact</a></p>
+          <p> <a href="#ipc">About</a></p>
+          <p> <a href="#possibility">Events</a></p>
+          <p> <a href="#features">Watch/Live</a></p>
+          <p> <a href="#contact">Contact</a></p>
           </div>
           </div>
         )}
