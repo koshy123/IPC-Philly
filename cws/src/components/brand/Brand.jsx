@@ -4,7 +4,7 @@ import {    renew, ladies_ministry, missions, prayer, sundaySchool,} from './imp
 
 const Brand = () => {
   return (
-    <div className="ipc__brand section__padding">
+    <div className="ipc__brand section__padding" id='live'>
     <div>
       <img src={renew} />
     </div>

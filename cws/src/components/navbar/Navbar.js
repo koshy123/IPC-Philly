@@ -29,9 +29,9 @@ const Navbar = () => {
         </div>
         <div className='ipc__navbar-links_container'> 
           <p> <a href="#home">Home</a></p>
+          <p> <a href="#live">Get Involved</a></p>
           <p> <a href="#ipc">Visit Us</a></p>
           <p> <a href="#beliefs">We Believe</a></p>
-          <p> <a href="#live">Watch Live</a></p>
           <p> <a href="#contact">Contact</a></p>
         </div>
         </div>
@@ -49,9 +49,9 @@ const Navbar = () => {
           <div className='ipc__navbar-menu_container scale-up-center'>
           <div className='ipc__navbar-menu_container-links'>
           <p> <a href="#home">Home</a></p>
+          <p> <a href="#live">Get Involved</a></p>
           <p> <a href="#ipc">Visit Us</a></p>
           <p> <a href="#beliefs">We Believe</a></p>
-          <p> <a href="#live">Watch Live</a></p>
           <p> <a href="#contact">Contact</a></p>
           </div>
           </div>

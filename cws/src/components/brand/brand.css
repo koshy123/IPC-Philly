@@ -13,11 +13,12 @@
     justify-content: center;
     align-items: center;
     
+    
   }
   
   .ipc__brand img {
     width: 100%;
-    height: auto; /* Set a specific height */
+    height: 100%; /* Set a specific height */
     object-fit: cover; /* Scale the image to cover the entire container */
     transition: transform 0.2s ease-out; /* Add a transition effect to the transform property */
   }
