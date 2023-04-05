@@ -22,7 +22,6 @@
 
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
 .ipc__whatIPC-feature {
     display: flex;
 }
@@ -35,4 +34,8 @@
 /* Customizing feature component as per needs */
 .ipc__whatIPC-feature .ipc__features-container_feature-text {
     max-width: 700px;
+}
+
+.ipc__whatIPC-heading{
+    align-items: center;
 }
