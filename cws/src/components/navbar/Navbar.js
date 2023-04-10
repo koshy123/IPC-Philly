@@ -25,7 +25,7 @@ const Navbar = () => {
     <div className='ipc__navbar'>
       <div className='ipc__navbar-links'>
         <div className='ipc__navbar-links_logo'>
-          <img src={title} alt="logo"  />
+         <a href='/'> <img src={title} alt="logo"  /></a>
         </div>
         <div className='ipc__navbar-links_container'> 
           <p> <a href="#home">Home</a></p>
