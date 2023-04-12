@@ -21,7 +21,7 @@ function App() {
 
   <Routes>
     <Route path='/renew' element={<Renew />} />
-    <Route path='/' element={[<Header/>, <Brand />, <WhatIPC />, <Features /> ]} />
+    <Route path='/' element={[<Header/>, <Brand />, <Possibility/>, <WhatIPC />, <Features />]} />
 
   </Routes>
 

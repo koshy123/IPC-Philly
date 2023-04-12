@@ -1,21 +1,87 @@
-import React from 'react';
+import { useState, useEffect } from "react";
 import possibilityImage from '../../assets/Prayer.jpg';
-
+import Feature from '../../components/feature/Feature';
+import { sliderData } from "../../slider-data";
 import "./possibility.css";
 
 const Possibility = () => {
+
+    const [currentSlide, setCurrentSlide] = useState(0);
+    const slideLength = sliderData.length;
+  
+    const autoScroll = true;
+    let slideInterval;
+    let intervalTime = 5000;
+  
+    const nextSlide = () => {
+      setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
+      console.log("next");
+    };
+  
+    const prevSlide = () => {
+      setCurrentSlide(currentSlide === 0 ? slideLength - 1 : currentSlide - 1);
+      console.log("prev");
+    };
+  
+    function auto() {
+      slideInterval = setInterval(nextSlide, intervalTime);
+    }
+  
+    useEffect(() => {
+      setCurrentSlide(0);
+    }, []);
+  
+    useEffect(() => {
+      if (autoScroll) {
+        auto();
+      }
+      return () => clearInterval(slideInterval);
+    }, [currentSlide]);
+  
+  
+
   return (
-    <div className="ipc__possibility section__padding" id="possibility">
-    <div className="ipc__possibility-image">
-      <img src={possibilityImage} alt="possibility" />
-    </div>
-    <div className="ipc__possibility-content">
-      <h4>Request Early Access to Get Started</h4>
-      <h1 className="gradient__text">The possibilities are <br /> beyond your imagination</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-      <h4>Request Early Access to Get Started</h4>
-    </div>
-  </div>
+    <div className="aboutIPC">
+    <div className="slider">
+
+    
+    
+    
+    <div className="ipc__whatIPC section__margin">
+
+      {sliderData.map((slide, index) => {
+        return (
+          <div
+            className={index === currentSlide ? "slide current" : "slide"}
+            key={index}
+          >
+            {index === currentSlide && (
+              <div >
+                <img src={slide.image} alt="slide" className="image" />
+           
+
+                {/* <div className="content">
+                  <h2>{slide.heading}</h2>
+                  <p>{slide.desc}</p>
+                  <hr />
+                  <button className="--btn --btn-primary">Get Started</button>
+                </div> */}
+              </div>
+            )}
+          </div>
+        );
+      })}
+
+      
+      <div className="ipc__whatIPC-feature">
+        <h2 className="title">What is IPC?</h2>
+        <p className="text">We are a small community church, provides Christ-centered, family-focused service to our community.</p>
+      </div>
+      
+      </div>
+      </div>
+      </div>
+
   )
 }
 

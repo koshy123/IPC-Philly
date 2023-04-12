@@ -1,7 +1,6 @@
 .ipc__whatIPC {
     display: flex;
     flex-direction: column;
-
     padding: 2rem;
     background: var(--color-footer);
 
@@ -24,6 +23,7 @@
 }
 .ipc__whatIPC-feature {
     display: flex;
+    justify-content: flex-end;
 }
 
 /* Customizing feature component as per needs */

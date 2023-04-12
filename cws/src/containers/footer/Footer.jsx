@@ -40,7 +40,7 @@ const Footer = () => {
     </div>
 
     <div className="ipc__footer-copyright">
-      <p>@2023 IPCPhillyChurch. All rights reserved.</p>
+      <p>@ 2023 IPC Philly Church</p>
     </div>
   </div>  )
 }

@@ -110,3 +110,9 @@
 .image {
   filter: brightness(50%);
 }
+
+.header_image{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20%;
+}
