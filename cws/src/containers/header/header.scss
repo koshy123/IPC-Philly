@@ -3,6 +3,7 @@
     height: 90vh;
     position: relative;
     overflow: hidden;
+    
   }
   
   .slide {
@@ -12,9 +13,15 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-    transform: translateX(-50%);
-    transition: all 0.5s ease;
+    // transform: translateX(-50%);
+    transition: all 1s ease;
   }
+  .carousel {
+    background-color: transparent;
+  }
+
+
+  
   
   @media screen and (min-width: 600px) {
     .slide img {
@@ -26,6 +33,8 @@
   .slide img {
     width: 100%;
     height: 100%;
+
+
   }
   
   .current {

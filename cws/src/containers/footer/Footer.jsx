@@ -1,6 +1,12 @@
 import React from 'react';
 import "./footer.css";
 import ipcLogo from '../../assets/ipcTitle.png';
+import instagram from'../../assets/instagram.png';
+import youtube from'../../assets/youtube.png';
+import facebook from'../../assets/facebook.png';
+
+
+
 
 const Footer = () => {
   return (
@@ -16,7 +22,17 @@ const Footer = () => {
     <div className="ipc__footer-links">
       <div className="ipc__footer-links_logo">
         <img src={ipcLogo} alt="ipc_logo" />
-        {/* <p>Crechterwoord K12 182 DK Alknjkcb, <br /> All Rights Reserved</p> */}
+        <div className="social-media-icons">
+  <a  target='_blank' href="https://www.instagram.com/ipcphilly/?hl=en">
+    <img src={instagram} alt="Instagram" />
+  </a>
+  <a target='_blank' href="https://www.youtube.com/@ipcphillychurch">
+    <img src={youtube} alt="YouTube" />
+  </a>
+  <a target='_blank' href="https://www.facebook.com/ipcphillychurch/">
+    <img src={facebook} alt="Facebook" />
+  </a>
+</div>
       </div>
       <div className="ipc__footer-links_div">
        <h4>Links</h4>

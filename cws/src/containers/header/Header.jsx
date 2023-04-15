@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <div className="header_image">
-      <img src={preach}></img>
+      {/* <img src={preach}></img> */}
   </div>
   );
 };

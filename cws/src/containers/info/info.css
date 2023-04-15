@@ -1,0 +1,14 @@
+.aboutIPC{
+    background-color: transparent;
+    margin-top: ;
+}
+.title{
+    z-index: 999;
+    color: white;
+}
+.text{
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
-import possibilityImage from '../../assets/Prayer.jpg';
-import Feature from '../../components/feature/Feature';
 import { sliderData } from "../../slider-data";
-import "./possibility.css";
+import "./info.css";
 
 const Possibility = () => {
 
@@ -38,14 +36,9 @@ const Possibility = () => {
       return () => clearInterval(slideInterval);
     }, [currentSlide]);
   
-  
-
   return (
     <div className="aboutIPC">
     <div className="slider">
-
-    
-    
     
     <div className="ipc__whatIPC section__margin">
 
@@ -55,27 +48,22 @@ const Possibility = () => {
             className={index === currentSlide ? "slide current" : "slide"}
             key={index}
           >
-            {index === currentSlide && (
-              <div >
-                <img src={slide.image} alt="slide" className="image" />
-           
-
-                {/* <div className="content">
-                  <h2>{slide.heading}</h2>
-                  <p>{slide.desc}</p>
-                  <hr />
-                  <button className="--btn --btn-primary">Get Started</button>
-                </div> */}
-              </div>
-            )}
+          {index === currentSlide && (
+  <div>
+    <img src={slide.image} alt="slide" className="image" />
+  
+  </div>
+)}
           </div>
         );
       })}
 
-      
       <div className="ipc__whatIPC-feature">
-        <h2 className="title">What is IPC?</h2>
-        <p className="text">We are a small community church, provides Christ-centered, family-focused service to our community.</p>
+        {/* <h2 className="title">What is IPC?</h2> */}
+       
+        <p className="text">What is IPC Philly?</p>
+        <p className="text">We are a local community church,  Christ-centered, family-focused service to our community.</p>
+     
       </div>
       
       </div>
