@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 1000px;
+    margin-top: 750px;
 
   }
   
@@ -43,3 +43,14 @@
       width: auto;
     }
   }
+
+  @media screen and (max-width: 550px) {
+
+    .ipc__brand {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 500px;
+    }
+}

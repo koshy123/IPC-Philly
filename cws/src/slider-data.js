@@ -4,6 +4,8 @@ import chat from './assets/chat.jpg'
 import ladies from './assets/ladies.jpg'
 import baptism from './assets/baptism.jpg'
 import wesley from './assets/wesley.jpg'
+import retreat from './assets/ipcRetreat.jpg'
+
 
 export const sliderData = [
     {
@@ -31,5 +33,15 @@ export const sliderData = [
         heading: "Slide Three",
         desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
         },
+        {
+          image: retreat,
+          heading: "Slide Three",
+          desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+          },
+          {
+            image: christmas,
+            heading: "Slide Three",
+            desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+            },
   ];
 

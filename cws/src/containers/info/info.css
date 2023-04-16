@@ -1,6 +1,6 @@
 .aboutIPC{
     background-color: transparent;
-    margin-top: ;
+    margin-top: 0;
 }
 .title{
     z-index: 999;
@@ -11,4 +11,13 @@
     color: white;
     font-size: 30px;
     font-weight: bold;
+}
+
+
+@media screen and (max-width: 550px) {
+    .text{
+        font-size: 10px;
+        padding: 0px;
+    }
+      
 }

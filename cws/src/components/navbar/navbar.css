@@ -131,6 +131,11 @@
 .ipc__navbar-menu_container-links-sign {
    display: block;
 }
+
+.ipc__navbar-links_logo, img {
+   width: 111px;
+   height: auto;
+}
 }
 
 
