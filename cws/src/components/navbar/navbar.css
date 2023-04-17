@@ -133,6 +133,11 @@
    width: 111px;
    height: auto;
 }
+.ipc__navbar-links_logo {
+
+   margin-left: -50px;
+   padding-right: 20px;
+}
 }
 
 
