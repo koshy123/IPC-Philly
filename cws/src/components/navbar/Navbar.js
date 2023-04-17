@@ -39,6 +39,7 @@ const Navbar = () => {
           <p>Sign in</p>
         <button type='button'>Sign up</button>
         </div> */}
+        {/* change color for button. white background for button. */}
         <div className='ipc__navbar-menu'>
         {
           toggleMenu 
