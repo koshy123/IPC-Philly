@@ -112,9 +112,15 @@
  }
  }
 
+
+
+
+ 
  @media screen and (max-width: 550px) {
     .ipc__navbar-menu {
     padding: 2rem ;
+    z-index: 20;
+
  }
 
  .ipc__navbar-sign {
