@@ -48,7 +48,7 @@
 
 
  .gpt__navbar-sign, button, .ipc__navbar-menu_container, button{
-    padding: .5rem 1rem;
+    padding: .5rem 0;
     color: #fff;
     background: #FF4820;
     font-family: var(--font-family);
@@ -78,14 +78,15 @@
     flex-direction: column;
     text-align: end;
     background: var(--color-footer);
-    padding: 2rem;
     position: absolute;
     top: 40px;
     right: 0;
     margin-top: 1rem;
-    min-width: 210px;
+    min-width: 150px;
     border-radius: 5px;
-    box-shadow: 0 0 5 rgba(0, 0, 0, .2);
+    background-image: url('../../assets/background.JPG'); 
+    opacity: .8;
+
  }
 
  .ipc__navbar-menu_container, p {
@@ -122,6 +123,8 @@
     z-index: 20;
 
  }
+
+ 
 
  .ipc__navbar-sign {
     display: none;
