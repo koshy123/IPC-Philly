@@ -1,0 +1,25 @@
+.about_header_container {
+    background-image: url("../assets/AboutBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about_header_container h1 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+  }
+
+
+  .meet_the_team p{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+
+
+  }

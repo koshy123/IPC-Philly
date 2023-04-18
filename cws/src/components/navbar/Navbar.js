@@ -28,10 +28,10 @@ const Navbar = () => {
          <Link to="/"><a > <img src={title} alt="logo"  /></a></Link>
         </div>
         <div className='ipc__navbar-links_container'> 
-          {/* <p> <a href="#home">Home</a></p> */}
-          <p> <a href="#live">Get Involved</a></p>
-          <p> <a href="#ipc">Visit Us</a></p>
-          <Link to="/believe"><p> <a >We Believe</a></p></Link>
+          <Link to="/about"><p> About</p></Link>
+          <p> <a >Involved</a></p>
+          <p> <a href="#ipc">Us</a></p>
+          <Link to="/believe"><p>Believe</p></Link>
           <p> <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams">Watch Live</a></p>
         </div>
         </div>
@@ -49,11 +49,12 @@ const Navbar = () => {
         {toggleMenu && (
           <div className='ipc__navbar-menu_container scale-up-center'>
           <div className='ipc__navbar-menu_container-links'>
-          {/* <p> <a href="#home">Home</a></p> */}
-          <p> <a href="#live">Get Involved</a></p>
-          <p> <a href="#ipc">Visit Us</a></p>
-          <p> <a href="#beliefs">We Believe</a></p>
-          <p> <a href="#contact">Watch Live</a></p>
+          <p> <a>About</a></p>
+
+          <p> <a href="#live">Involved</a></p>
+          <p> <a href="#ipc">Visit</a></p>
+          <p> <a href="#beliefs">Believe</a></p>
+          <p> <a href="#contact">Live</a></p>
           </div>
           </div>
         )}

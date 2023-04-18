@@ -1,9 +1,10 @@
 import React from 'react'
-import { Footer, Blog, Possibility, Features, WhatIPC, Header} from './containers'
-import { Navbar, Brand, CTA } from './components';
+import { Footer, Possibility, Features, WhatIPC, Header} from './containers'
+import { Navbar, Brand } from './components';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import './App.css'
 import Renew from './pages/Renew/Renew';
+import About from './pages/About/About'
 
 function App() {
   const location = useLocation();
@@ -22,6 +23,8 @@ function App() {
       <Routes>
         <Route path='/renew' element={<Renew />} />
         <Route path='/believe' element={<Features />} />
+        <Route path='/about' element={<About />} />
+
         <Route path='/' element={[<Header/>, <Brand />, <Possibility/>, <WhatIPC />]} />
       </Routes>
       <footer><Footer /></footer>
