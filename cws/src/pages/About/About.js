@@ -3,6 +3,8 @@ import './about.css'
 import church from '../assets/FrontChurch.jpg'
 import kuttu from '../assets/KuttuZephan.jpeg'
 import wesley from '../assets/WesleyHeadshot.png'
+import { Link } from "react-router-dom";
+
 
 
 
@@ -15,11 +17,11 @@ const About = () => {
             </div>
         </div>
 
-        
+
         <div className='meet_the_team'>
-        <p className='items_about'>Our History <img src={church}/></p>
-        <p className='items_about'>Our Pastor <img src={wesley} /> </p>
-        <p className='items_about'>Our Team <img src={kuttu} /></p>
+        <p className='items_about'>Our History <Link><img src={church}/></Link></p>
+        <p className='items_about'>Our Pastor <Link><img src={wesley} /> </Link></p>
+        <p className='items_about'>Our Team <Link><img src={kuttu} /></Link></p>
         </div>
         </div>
       )

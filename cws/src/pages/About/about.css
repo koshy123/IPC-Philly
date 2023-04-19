@@ -25,6 +25,8 @@
       transform: scale(1.0);
   }
 } */
+
+
   .about_header_container h1 {
     color: white;
     font-size: 5rem;
@@ -47,9 +49,11 @@
     height: 25%;
     width: 25%;
     transition: transform 0.2s ease-out;
+    margin-bottom: 150px;
   }
 
   .items_about img:hover{
+    margin-top: 20px;
     transition: transform 0.2s ease-out;
     transform: scale(1.1); /* Zoom in when the mouse hovers over the image */
 

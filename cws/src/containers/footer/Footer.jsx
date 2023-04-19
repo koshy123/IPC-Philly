@@ -50,7 +50,7 @@ const Footer = () => {
       <div className="ipc__footer-links_div">
         <h4>Get in touch</h4>
         <p>7781 Craig Street Philadelphia, PA 19136</p>
-        <p>Ipcphillychurch@gmail.com
+        <p>ipcphillychurch@gmail.com
 </p>
       </div>
     </div>
