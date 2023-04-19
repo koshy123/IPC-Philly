@@ -1,14 +1,45 @@
-import React from 'react';
+/* global google */
+import React, {useEffect} from 'react';
 import "./footer.css";
 import ipcLogo from '../../assets/ipcTitle.png';
 import instagram from'../../assets/instagram.png';
 import youtube from'../../assets/youtube.png';
 import facebook from'../../assets/facebook.png';
+import { Loader } from '@googlemaps/js-api-loader';
+
 
 
 
 
 const Footer = () => {
+
+
+function GoogleMap() {
+  useEffect(() => {
+    const loader = new Loader({
+      apiKey: 'YOUR_API_KEY',
+      version: 'weekly',
+    });
+
+    loader.load().then(() => {
+      const map = new google.maps.Map(document.getElementById('map'), {
+        center: { lat: 37.7749, lng: -122.4194 }, // set the initial location
+        zoom: 15,
+      });
+
+      const marker = new google.maps.Marker({
+        position: { lat: 37.7749, lng: -122.4194 }, // set the marker position
+        map,
+        title: 'Click to open in Google Maps',
+      });
+
+      // create an event listener to open the Google Maps link when the marker is clicked
+      marker.addListener('click', () => {
+        window.open(`https://www.google.com/maps/search/?api=1&query=${marker.getPosition().lat()},${marker.getPosition().lng()}`);
+      });
+    });
+  }, [])}
+
   return (
 <div className="ipc__footer section__padding">
     <div className="ipc__footer-heading">
@@ -56,9 +87,11 @@ const Footer = () => {
     </div>
 
     <div className="ipc__footer-copyright">
+    <GoogleMap />
+
       <p>@ 2023 IPC Philly Church</p>
     </div>
   </div>  )
 }
 
-export default Footer
+export default Footer;
