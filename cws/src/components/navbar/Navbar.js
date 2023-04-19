@@ -49,12 +49,11 @@ const Navbar = () => {
         {toggleMenu && (
           <div className='ipc__navbar-menu_container scale-up-center'>
           <div className='ipc__navbar-menu_container-links'>
-          <p> <a>About</a></p>
-
-          <p> <a href="#live">Involved</a></p>
-          <p> <a href="#ipc">Visit</a></p>
-          <p> <a href="#beliefs">Believe</a></p>
-          <p> <a href="#contact">Live</a></p>
+          <Link to="/about"><p> About</p></Link>
+          <p> <a >Involved</a></p>
+          <p> <a href="#ipc">Us</a></p>
+          <Link to="/believe"><p>Believe</p></Link>
+          <p> <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams">Watch Live</a></p>
           </div>
           </div>
         )}
