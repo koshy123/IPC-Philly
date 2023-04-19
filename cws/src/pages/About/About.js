@@ -19,9 +19,9 @@ const About = () => {
 
 
         <div className='meet_the_team'>
-        <p className='items_about'>Our History <Link><img src={church}/></Link></p>
-        <p className='items_about'>Our Pastor <Link><img src={wesley} /> </Link></p>
-        <p className='items_about'>Our Team <Link><img src={kuttu} /></Link></p>
+        <p className='items_about'>Our History <Link to='about/history'><img src={church}/></Link></p>
+        <p className='items_about'>Our Pastor <Link to='about/pastor'><img src={wesley} /> </Link></p>
+        <p className='items_about'>Our Team <Link to='about/team'><img src={kuttu} /></Link></p>
         </div>
         </div>
       )
