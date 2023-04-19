@@ -36,20 +36,32 @@
 
   .meet_the_team{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
     color: white;
-    font-size: 1.5rem;
-    margin-top: 100px;
+    margin: 100px 100px;
 
 
+  }
+
+  .meet_the_team_about_box{
+    width: 33%;
+    height: 50%;
+  }
+
+  .meet_the_team h4{
+    font-size: 30px;
+  }
+
+  .about_under_image{
+    font-size: 15px;
+    margin: 0px 0px;
+    width: 50%;
+    margin-top: 10px;
   }
   .items_about{
     display: flex;
     flex-direction: column;
-    height: 25%;
     width: 25%;
-    transition: transform 0.2s ease-out;
-    margin-bottom: 150px;
   }
 
   .items_about img:hover{
@@ -59,3 +71,17 @@
 
   }
 
+  .meet_the_team_about_box img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    transition: transform 0.2s ease-out;
+
+  }
+
+  .meet_the_team_about_box img:hover{
+    margin-top: 20px;
+    transition: transform 0.2s ease-out;
+    transform: scale(1.1); /* Zoom in when the mouse hovers over the image */
+
+  }
