@@ -1,20 +1,26 @@
 .renew{
-    background-color: #71E6FF;
+    background-color: white;
 }
 .images_at_renew{
     display: flex;
     justify-content: space-around;
+    background-color: black;
 }
 
 .text_for_renew{
     display: flex;
     justify-content: center;
     margin: 5% 10%;
+    color: black;
 }
 
 .title_for_renew{
-    color: white;
+    color: black;
     display: flex;
     justify-content: center;
     font-size: 50px;
+}
+
+.renew_padding{
+    padding: 200px 200px;
 }
