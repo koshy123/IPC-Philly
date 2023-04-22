@@ -120,9 +120,13 @@
   filter: brightness(50%);
 }
 
-.header_image{
+.header_image {
+  background-image: url("../../assets/HallChurch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
   display: flex;
-  justify-content: flex-end;
-  margin-right: 20%;
-  
+  justify-content: center;
+  align-items: center;
 }

@@ -47,7 +47,7 @@ a {
     height: 100%;
     z-index: -1;
     opacity: 0.5;
-    background-image: url('./assets/Sunday.png');
+    /* background-image: url('./assets/Sunday.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

@@ -28,11 +28,11 @@ const Navbar = () => {
          <Link to="/"><a > <img src={title} alt="logo"  /></a></Link>
         </div>
         <div className='ipc__navbar-links_container'> 
-          <Link to="/about"><p> About</p></Link>
-          <p> <a >Involved</a></p>
-          <p> <a href="#ipc">Us</a></p>
-          <Link to="/believe"><p>Believe</p></Link>
-          <p> <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams">Watch Live</a></p>
+        <p> <Link to="/involved"> Get Involved </Link></p>
+        <p><Link to="/about">About</Link></p>
+        <p> <Link to="/believe">We Believe</Link></p>          
+        <p> <Link>Events </Link></p>
+        <p> <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams">Watch Live</a></p>
         </div>
         </div>
         {/* <div className='ipc__navbar-sign'>

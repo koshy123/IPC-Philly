@@ -1,0 +1,15 @@
+.welcome_flex{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+}
+
+.welcome_left_text{
+
+}
+
+.welcome_right_image{
+    background-image: url('../../assets/joshua.jpg');
+    z-index: 10;
+}
