@@ -10,7 +10,8 @@ const Header = () => {
 
   return (
     <div className="header_image">
-      {/* <img src={preach}></img> */}
+      <h1>IPC Philly Church</h1>
+      <button>Contact Us</button>
   </div>
   );
 };
