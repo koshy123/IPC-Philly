@@ -36,14 +36,24 @@
     width: 100%;
     height: 100%;
     opacity: 0;
-    transform: translateX(-50%);
-    transition: all 1s ease;
-  }
-  .carousel {
-    background-color: transparent;
-  }
+    /* transform: translateX(-50%);  this css will cause the slider to physically show a slide animation*/  
+    transition: all 12s ease;
 
-
+   
+  }
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition:  ease-in-out, transform 6s ease-in-out;
+    transform: scale(1);
+  }
+  
+  .slide.current {
+    opacity: 1;
+    transform: scale(1.2);
+  }
   
   
   @media screen and (min-width: 600px) {
