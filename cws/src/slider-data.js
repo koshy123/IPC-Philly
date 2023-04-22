@@ -5,7 +5,7 @@ import ladies from './assets/ladies.jpg'
 import baptism from './assets/baptism.jpg'
 import wesley from './assets/wesley.jpg'
 import retreat from './assets/ipcRetreat.jpg'
-
+import Santhosh from './assets/Santhosh.jpg'
 
 export const sliderData = [
     {
@@ -29,7 +29,7 @@ export const sliderData = [
     desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
     },
     {
-        image: wesley,
+        image: Santhosh,
         heading: "Slide Three",
         desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
         },
