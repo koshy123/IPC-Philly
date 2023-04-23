@@ -31,8 +31,8 @@ const Navbar = () => {
         <p> <Link to="/involved"> Get Involved </Link></p>
         <p><Link to="/about">About</Link></p>
         <p> <Link to="/believe">We Believe</Link></p>          
-        <p> <Link>Events </Link></p>
-        <p> <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams">Watch Live</a></p>
+        <p> <Link to="/events">Events </Link></p>
+        <p> <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams/live">Live Stream</a></p>
         </div>
         </div>
         {/* <div className='ipc__navbar-sign'>

@@ -10,6 +10,7 @@ import Pastor from './pages/About/Pastor';
 import Team from './pages/About/Team';
 import Welcome from './containers/welcome/Welcome';
 import Involved from './pages/Involved/Involved';
+import Events from './pages/Events/Events';
 
 function App() {
   const location = useLocation();
@@ -26,7 +27,8 @@ function App() {
         </nav>
       </div>
       <Routes>
-       <Route path='/involved' element={<Involved />} />
+        <Route path='/involved' element={<Involved />} />
+        <Route path='/events' element={<Events />} />
         <Route path='/renew' element={<Renew />} />
         <Route path='/believe' element={<Features />} />
         <Route path='/about' element={<About />} />
