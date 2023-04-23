@@ -4,7 +4,7 @@ import "./header.scss";
 
 const ContactForm = () => {
     return (
-      <div className=''>
+      <div className='contact_form'>
         <form>
           <label htmlFor="name">Name:</label>
           <input type="text" id="name" name="name" placeholder="Enter your name" />
