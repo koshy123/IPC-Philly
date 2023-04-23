@@ -11,6 +11,8 @@ import Team from './pages/About/Team';
 import Welcome from './containers/welcome/Welcome';
 import Involved from './pages/Involved/Involved';
 import Events from './pages/Events/Events';
+import ContactForm from './containers/header/ContactForm';
+
 
 function App() {
   const location = useLocation();
@@ -27,6 +29,7 @@ function App() {
         </nav>
       </div>
       <Routes>
+        <Route path='/contact' element={<ContactForm />} />
         <Route path='/involved' element={<Involved />} />
         <Route path='/events' element={<Events />} />
         <Route path='/renew' element={<Renew />} />
