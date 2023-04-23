@@ -1,5 +1,5 @@
 .renew{
-    background-color: #FF8A71;
+
 }
 .images_at_renew{
     display: flex;
@@ -23,4 +23,11 @@
 
 .renew_padding{
     padding: 200px 200px;
+    background-image: url('../assets/bibleStudy.jpeg');
+
+}
+
+.meeting_times{
+    padding: 200px 200px;
+
 }

@@ -14,7 +14,7 @@ const Renew = () => {
           <img src={rufus}></img>
           <img src={floor}></img>
         </div>
-        <div className='renew_padding'>
+        <div className='meeting_times'>
             <h1 className='title_for_renew'>Join </h1>
             <p className='text_for_renew'>Meeting times are.</p>
             </div>
