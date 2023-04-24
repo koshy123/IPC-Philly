@@ -12,4 +12,26 @@ const sendEmail = async (subject, message, send_too, sent_from, reply_to) => {
             rejectUnauthorized: false,
         }
       })
+
+      const options = {
+        from: sent_from,
+        to: sent_to,
+        replyTo: reply_to,
+        subject: subject,
+        html: message
+      }
+      // send email
+      transporter.sendMail(options, function(err, info){
+        if (err) {
+            console.log(err)
+        } else {
+            console.log(info)
+        }
+      })
+      
+
     };
+
+
+    module.export = sendEmail;
+    
