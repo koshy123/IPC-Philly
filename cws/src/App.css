@@ -102,12 +102,7 @@ a {
         margin-top: 50px;
     }
 
-    .header__background{
-        background-image: url('./assets/Sunday.png');
-        background-size: contain;
-        margin-top: -220px;
-        z-index: 2;
-    }
+
  
 
     .navbar__background {
@@ -138,6 +133,4 @@ a {
         .ipc__whatIPC {
             margin-top: 0 0;
         }
-        
-      
 }

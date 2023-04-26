@@ -28,8 +28,6 @@ const sendEmail = async (subject, message, send_too, sent_from, reply_to) => {
             console.log(info)
         }
       })
-      
-
     };
 
 
