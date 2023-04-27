@@ -43,6 +43,7 @@
     text-transform: capitalize;
     cursor: pointer;
     z-index: 999;
+    margin: 25px;
  }
 
 
