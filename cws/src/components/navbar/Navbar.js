@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState,useEffect, useRef} from 'react';
 import "./navbar.css";
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import title from "../../assets/ipcLogo.jpg";
@@ -21,6 +21,30 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const[toggleMenu, setToggleMenu] = useState(false)
 
+  const menuRef = useRef(null);
+
+  const handleClickOutside = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setToggleMenu(false);
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+  };
+
+  const handleMenuClick = () => {
+    setToggleMenu(!toggleMenu);
+    if (!toggleMenu) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+  };
+
+  useEffect(() => {
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <div className='ipc__navbar'>
       <div className='ipc__navbar-links'>
@@ -40,11 +64,11 @@ const Navbar = () => {
         <button type='button'>Sign up</button>
         </div> */}
         {/* change color for button. white background for button. */}
-        <div className='ipc__navbar-menu'>
+        <div className='ipc__navbar-menu' ref={menuRef}>
         {
           toggleMenu 
-          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
-          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+          ? <RiCloseLine color="#fff" size={27} onClick={handleMenuClick} style={{backgroundColor: "white"}} />
+          : <RiMenu3Line color="#fff" size={27} onClick={handleMenuClick} />
         }
         {toggleMenu && (
           <div className='ipc__navbar-menu_container scale-up-center'>
