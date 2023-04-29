@@ -56,7 +56,7 @@ const Navbar = () => {
         <p><Link to="/about">About</Link></p>
         <p> <Link to="/believe">We Believe</Link></p>          
         <p> <Link to="/events">Events </Link></p>
-        <p> <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams/live">Live Stream</a></p>
+        <p> <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams/live">YouTube</a></p>
         </div>
         </div>
         {/* <div className='ipc__navbar-sign'>
@@ -67,7 +67,7 @@ const Navbar = () => {
         <div className='ipc__navbar-menu' ref={menuRef}>
         {
           toggleMenu 
-          ? <RiCloseLine color="#fff" size={27} onClick={handleMenuClick} style={{backgroundColor: "white"}} />
+          ? <RiCloseLine color="#fff" size={27} onClick={handleMenuClick} style={{backgroundColor: '#FF8A71'}} />
           : <RiMenu3Line color="#fff" size={27} onClick={handleMenuClick} />
         }
         {toggleMenu && (
@@ -77,7 +77,7 @@ const Navbar = () => {
           <p> <Link to="/involved"> Get Involved </Link></p>
           <p> <a href="#ipc">Us</a></p>
           <Link to="/believe"><p>Believe</p></Link>
-          <p> <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams">Watch Live</a></p>
+          <p> <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams">YouTube</a></p>
           </div>
           </div>
         )}

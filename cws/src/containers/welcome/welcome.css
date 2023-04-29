@@ -54,3 +54,9 @@
   }
 
 
+@media screen and (max-width: 550px) {
+  .welcome_left_text h1{
+    text-align: center;
+    margin: 0px;
+  }
+}

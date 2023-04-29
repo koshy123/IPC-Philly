@@ -158,22 +158,26 @@
 
 @media screen and (max-width: 550px) {
     .text{
-        font-size: 10px;
-        padding: 0px;
+      font-size: 10px;
+      padding: 0px;
     }
-      
 }
 
 
 @media screen and (max-width: 768px) {
     .title{
-        z-index: 9;
-        color: white;
-        font-size: 15px;
+      z-index: 9;
+      color: white;
+      font-size: 15px;
     }
     .text{
-        font-size: 10px;
-        padding: 0px;
+      font-size: 10px;
+      padding: 0px;
     }
-      
+    .aboutIPC{
+      margin-top: 200px;
+    }
+    .slider_images{
+      padding-bottom: 100px;
+    }
 }
