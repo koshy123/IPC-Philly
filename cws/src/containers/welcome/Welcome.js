@@ -1,5 +1,5 @@
 import "./welcome.css";
-import joshua from '../../assets/joshua.jpg'
+import joshua from '../../assets/joshua.png'
 const Welcome = () => {
 
   return (

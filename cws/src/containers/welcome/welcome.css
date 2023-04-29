@@ -26,7 +26,7 @@
   
   .welcome_right_image {
     background-color: black;
-    background-image: url('../../assets/joshua.jpg');
+    background-image: url('../../assets/joshua.png');
     background-position: center;
     background-size: cover;
     flex: 1;
