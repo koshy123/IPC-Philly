@@ -4,8 +4,9 @@ import  {WhatIPC}  from "../../containers";
 const Involved = () => {
   return (
     <div>
-        <WhatIPC/>
-        <Brand/>
+      <Brand/>
+      <WhatIPC/>
+        
 
   </div>
   )

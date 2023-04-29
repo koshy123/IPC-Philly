@@ -141,6 +141,9 @@
         font-size: 14px;
         line-height: 20px;
     }
+    .links_and_about{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 400px) {
