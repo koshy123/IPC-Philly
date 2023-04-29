@@ -64,7 +64,7 @@
 }
 
 .ipc__footer-links_logo img {
-    width: 111%;
+    width: 100%;
     height: auto;
 
     margin-bottom: 1rem;
@@ -144,11 +144,16 @@
     .links_and_about{
         display: none;
     }
+    .ipc__footer-links{
+        text-align: center;
+        width: 100%;
+    }
+    .ipc__footer-links div{
+        width: 100%;
+    }
+    .ipc__footer-links_logo img{
+
+    }
+
 }
 
-@media screen and (max-width: 400px) {
-    .ipc__footer-heading h1 {
-        font-size: 27px;
-        line-height: 38px;
-    }
-}

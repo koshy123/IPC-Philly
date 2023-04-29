@@ -52,7 +52,7 @@ function GoogleMap() {
 
     <div className="ipc__footer-links">
       <div className="ipc__footer-links_logo">
-        <img src={ipcLogo} alt="ipc_logo" />
+        <img id='banner_logo' src={ipcLogo} alt="ipc_logo" />
           <div className="social-media-icons">
             <a  target='_blank' href="https://www.instagram.com/ipcphilly/?hl=en">
             <img src={instagram} alt="Instagram" />
@@ -61,10 +61,10 @@ function GoogleMap() {
             <img src={youtube} alt="YouTube" />
             </a>
             <a target='_blank' href="https://www.facebook.com/ipcphillychurch/">
-            <img src={facebook} alt="Facebook" />
+            <img src={facebook} alt="Facebook"/>
             </a>
           </div>
-      </div>
+      </div>   
     <div className='links_and_about'>
       <div className="ipc__footer-links_div">
         <h4>Links</h4>
