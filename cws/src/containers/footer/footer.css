@@ -48,14 +48,13 @@
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-
-    width: 100%;
+    width: 75%;
     text-align: left;
 }
 
 .ipc__footer-links div {
     width: 250px;
-    margin: 1rem;
+    display: flex;
 }
 
 .ipc__footer-links_logo {
@@ -117,7 +116,7 @@
 .social-media-icons img {
     width: auto;
     height: 25px;
-    margin: 0 5%;
+    margin-right: 20px;
 }
 
 @media screen and (max-width: 850px) {

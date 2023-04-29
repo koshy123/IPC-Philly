@@ -84,13 +84,12 @@ function GoogleMap() {
         <h4>Get in touch</h4>
         <p>7781 Craig Street Philadelphia, PA 19136</p>
         <p>ipcphillychurch@gmail.com
-</p>
+        </p>
       </div>
     </div>
 
     <div className="ipc__footer-copyright">
     <GoogleMap />
-
       <p>@ 2023 IPC Philly Church</p>
     </div>
   </div>  )
