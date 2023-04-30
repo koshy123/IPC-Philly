@@ -78,7 +78,7 @@ function GoogleMap() {
         <h4>About</h4>
         <Link to="/about"> <p>History</p></Link> 
         <Link to="/believe"><p>Beliefs</p></Link>
-        <p>Our Team</p>
+        <Link to='/team'><p>Our Team</p></Link>
       </div>
     </div>
       <div className="ipc__footer-links_div">
