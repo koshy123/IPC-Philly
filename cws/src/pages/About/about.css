@@ -113,3 +113,74 @@
   margin-top: 100px;
   padding-bottom: 200px;
  }
+
+
+ /* Team */
+
+ .team_header_container{
+  background-image: url("../assets/ammachi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.team_header_container h1 {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+
+.team_text_main {
+text-align: center;
+margin-top: 100px;
+padding-bottom: 200px;
+}
+
+.teamster_text_main  {
+  height: 200px;
+}
+.teamster_text_main h1{
+  color: white;
+}
+
+
+.teamster_text_main img{
+  height: 50%;
+  width: auto;
+}
+
+
+ /* Pastor */
+
+ .pastor_header_container{
+  background-image: url("../assets/Pastor_Pastor.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.pastor_header_container h1 {
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+}
+
+
+.pastor_text_main {
+text-align: center;
+margin-top: 100px;
+padding-bottom: 200px;
+}
+
+
