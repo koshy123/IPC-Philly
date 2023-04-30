@@ -6,6 +6,7 @@ import instagram from'../../assets/instagram.png';
 import youtube from'../../assets/youtube.png';
 import facebook from'../../assets/facebook.png';
 import { Loader } from '@googlemaps/js-api-loader';
+import { Link } from "react-router-dom";
 
 
 
@@ -68,15 +69,15 @@ function GoogleMap() {
     <div className='links_and_about'>
       <div className="ipc__footer-links_div">
         <h4>Links</h4>
-        <p>Giving</p>
-        <a  href='https://linktr.ee/ipcphilly?fbclid=IwAR0UbKrWKCCOR7zmbP3Bm2W-gUWNzzm40nWZtmLhJDt8NHM5n4Oz11iV1d8' target="_blank"><p>Social Media</p></a>
-        <p>Livestream</p>
-        <p>Contact</p>
+        {/* <p>Giving</p> */}
+        <a href='https://linktr.ee/ipcphilly?fbclid=IwAR0UbKrWKCCOR7zmbP3Bm2W-gUWNzzm40nWZtmLhJDt8NHM5n4Oz11iV1d8' target="_blank"><p>Social Media</p></a>
+        <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams/live"><p>Livestream</p></a>
+        <Link to='/contact' ><p>Contact</p></Link>
       </div>
       <div className="ipc__footer-links_div">
         <h4>About</h4>
-        <p>History</p>
-        <p>Who are we</p>
+        <Link to="/about"> <p>History</p></Link> 
+        <Link to="/believe"><p>Beliefs</p></Link>
         <p>Our Team</p>
       </div>
     </div>

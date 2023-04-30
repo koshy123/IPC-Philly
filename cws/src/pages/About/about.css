@@ -85,3 +85,31 @@
     transform: scale(1.1); /* Zoom in when the mouse hovers over the image */
 
   }
+
+
+
+  /* History */
+
+
+  .history_header_container{
+    background-image: url("../assets/history_banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .history_header_container h1 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+  }
+ .history_text_main{
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 200px;
+ }

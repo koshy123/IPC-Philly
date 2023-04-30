@@ -7,13 +7,15 @@ import './about.css'
 
 const Team = () => {
     return (
-        <div className='about_main'>
-            <div className='about_header'>
-            <div className='about_header_container '>
-                <h1 className='about_header_title'>About Us</h1>
+        <div className='team_main'>
+            <div className='team_header_container '>
+                <h1 className='team_header_title'>Team</h1>
             </div>
-        </div>
 
+
+        <div>
+
+        </div>
 
 
         </div>

@@ -35,9 +35,9 @@ function App() {
         <Route path='/renew' element={<Renew />} />
         <Route path='/believe' element={<Features />} />
         <Route path='/about' element={<About />} />
-        <Route path='/about/history' element={<History />} />
-        <Route path='/about/pastor' element={<Pastor />} />
-        <Route path='/about/team' element={<Team />} />
+        <Route path='/history' element={<History />} />
+        <Route path='/pastor' element={<Pastor />} />
+        <Route path='/team' element={<Team />} />
 
         <Route path='/' element={[<Header/>,<Welcome/>, <Info/>]} />
       </Routes>
