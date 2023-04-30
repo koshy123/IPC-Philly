@@ -3,7 +3,7 @@ import { Footer, Info, Features, Header} from './containers'
 import { Navbar } from './components';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import './App.css'
-import Renew from './pages/Renew/Renew';
+import Renew from './pages/Involved/Renew/Renew';
 import About from './pages/About/About'
 import History from './pages/About/History';
 import Pastor from './pages/About/Pastor';

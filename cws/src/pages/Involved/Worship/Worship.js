@@ -1,9 +1,9 @@
 import React from 'react';
 import "./renew.css";
-import rufus from '../../assets/rufusRenew.png'
-import floor from '../../assets/floorSitting.png'
+import rufus from '../../../assets/rufusRenew.png'
+import floor from '../../../assets/floorSitting.png'
 
-const Renew = () => {
+const Worship = () => {
     return (
         <div className='renew'>
             <div className='renew_padding'>
@@ -22,4 +22,4 @@ const Renew = () => {
       )
     }
 
-export default Renew;
+export default Worship;
