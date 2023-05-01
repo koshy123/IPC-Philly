@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
   const menuRef = useRef(null);
 
   const handleClickOutside = (event) => {
@@ -30,8 +29,42 @@ const Navbar = () => {
   };
 
   useEffect(() => {
+    
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+
+
+
+  
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+      const navbar = document.querySelector(".ipc__navbar");
+      const logoImg = document.querySelector(".ipc__navbar-links_logo img");
+  
+      if (scrollTop > 0) {
+        // Add a class to the Navbar to make it smaller
+        navbar.classList.add("ipc__navbar--small");
+        // Set the max-height of the logo image to make it smaller
+        logoImg.style.maxHeight = "0px";
+      } else {
+        // Remove the class and style to restore the original size
+        navbar.classList.remove("ipc__navbar--small");
+        logoImg.style.maxHeight = "70px";
+      }
+    };
+  
+    window.addEventListener("scroll", handleScroll);
+  
+
+
+
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -129,3 +162,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
