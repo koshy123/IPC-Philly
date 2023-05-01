@@ -9,11 +9,7 @@ import { Loader } from '@googlemaps/js-api-loader';
 import { Link } from "react-router-dom";
 
 
-
-
-
 const Footer = () => {
-
 
 function GoogleMap() {
   useEffect(() => {
@@ -71,7 +67,7 @@ function GoogleMap() {
         <h4>Links</h4>
         {/* <p>Giving</p> */}
         <a href='https://linktr.ee/ipcphilly?fbclid=IwAR0UbKrWKCCOR7zmbP3Bm2W-gUWNzzm40nWZtmLhJDt8NHM5n4Oz11iV1d8' target="_blank"><p>Social Media</p></a>
-        <a target="_blank" href="https://www.youtube.com/@ipcphillychurch/streams/live"><p>Livestream</p></a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=lguWpJyWfpc&ab_channel=IPCPhiladelphia"><p>Livestream</p></a>
         <Link to='/contact' ><p>Contact</p></Link>
       </div>
       <div className="ipc__footer-links_div">
