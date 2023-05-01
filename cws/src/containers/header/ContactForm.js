@@ -9,7 +9,7 @@ const ContactForm = () => {
   const sendEmail = async (e) => {
     e.preventDefault();
     const data = { email };
-    const response = await axios.post('http://localhost:5000/api/sendemail', data);
+    const response = await axios.post('https://ipc-backend.herokuapp.com/api/sendemail', data);
     console.log(response.data);
     setSubmitted(true);
   };
