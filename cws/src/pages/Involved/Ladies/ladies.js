@@ -7,7 +7,7 @@ const Empower = () => {
     return (
         <div className='renew'>
             <div className='renew_padding'>
-            <h1 className='title_for_renew'>Renew </h1>
+            <h1 className='title_for_renew'>Ladies Meetings </h1>
             <p className='text_for_renew'>Rufus James was inspired to start this this meeting so that young adults can grow deeper in Gods word. From its start it has consistently grown and allowed many to have a greater passion for God.</p>
             </div>
         <div className='images_at_renew'>

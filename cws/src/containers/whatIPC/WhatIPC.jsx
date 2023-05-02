@@ -6,7 +6,7 @@ const WhatIPC = () => {
   
 
   return (
-    <div className="ipc__whatIPC section__margin"  id='ipc' >
+    <div className="ipc__whatIPC section__margin"  id="ipc" >
       <div className='ipc__whatIPC-feature'>
       <div className="ipc__whatIPC-feature">
       {/* <Feature title="Who are we?" text="The Indian Pentecostal Church of God (IPC) is the largest Pentecostal Christian Denomination in India, with over 10,000 congregations worldwide. Its organisational headquarters located in Kumbanad, Kerala, India." /> */}
