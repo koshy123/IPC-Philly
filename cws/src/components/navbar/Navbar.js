@@ -3,6 +3,8 @@ import './navbar.css';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import title from '../../assets/ipcLogo.jpg';
 import { Link } from 'react-router-dom';
+import youtube from '../../assets/youtubeName.png';
+
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -115,7 +117,7 @@ const Navbar = () => {
               href="https://www.youtube.com/@ipcphillychurch/streams/live"
               onClick={handleMenuItemClick}
             >
-              YouTube
+              <img className='navbarYoutube' src={youtube}></img>
             </a>
           </p>
         </div>
@@ -138,13 +140,15 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="ipc__navbar-menu_container scale-up-center">
             <div className="ipc__navbar-menu_container-links">
-              <Link to="/about" onClick={handleMenuItemClick}>
-                <p>About</p>
-              </Link>
               <p>
-                <Link to="/involved" onClick={handleMenuItemClick}>
+              <Link to="/involved" onClick={handleMenuItemClick}>
                   Get Involved
-                </Link>
+              </Link>
+              </p>
+              <p>
+              <Link to="/about" onClick={handleMenuItemClick}>
+                About
+              </Link>
               </p>
               <p>
               <Link to="/events" onClick={handleMenuItemClick}>
