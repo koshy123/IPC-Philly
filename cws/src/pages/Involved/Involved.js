@@ -3,7 +3,7 @@ import  {Brand}  from "../../components";
 import  {WhatIPC}  from "../../containers";
 const Involved = () => {
   return (
-    <div>
+    <div className="involved" >
       <Brand/>
       <WhatIPC/>
         

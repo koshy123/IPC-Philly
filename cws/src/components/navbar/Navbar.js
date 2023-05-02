@@ -7,11 +7,13 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const menuRef = useRef(null);
+  const body = document.querySelector('body');
 
   const handleClickOutside = (event) => {
     if (menuRef.current && !menuRef.current.contains(event.target)) {
       setToggleMenu(false);
       document.removeEventListener("mousedown", handleClickOutside);
+      body.classList.remove('no-scroll');
     }
   };
 
@@ -19,10 +21,10 @@ const Navbar = () => {
     setToggleMenu(!toggleMenu);
     if (!toggleMenu) {
       document.addEventListener("mousedown", handleClickOutside);
-      const body = document.querySelector('body');
       body.classList.toggle('no-scroll');
     } else {
       document.removeEventListener("mousedown", handleClickOutside);
+      body.classList.remove('no-scroll');
     }
   };
 
@@ -71,10 +73,7 @@ const Navbar = () => {
   }, []);
 
 
-  function handleNavbarToggle() {
-    const body = document.querySelector('body');
-    body.classList.toggle('no-scroll');
-  }
+ 
 
   return (
     <div className="ipc__navbar">

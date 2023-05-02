@@ -18,6 +18,7 @@ function App() {
   const location = useLocation();
   const isHomePage = location.pathname === '/';
 
+
   return (
     <div className="App">
       {isHomePage && (
