@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+
   }
   
   .ipc__brand div {
@@ -48,4 +48,9 @@
 
   background-image: url('../../assets/background.JPG'); 
     }
+  }
+
+  @media screen and (max-width: 550px) {
+
+    
   }

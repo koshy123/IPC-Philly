@@ -30,12 +30,15 @@ const Navbar = () => {
 
   const handleMenuItemClick = () => {
     setToggleMenu(false);
+    body.classList.remove('no-scroll');
+
   };
 
   useEffect(() => {
     
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
+      body.classList.remove('no-scroll');
     };
   }, []);
 
