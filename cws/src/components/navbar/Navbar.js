@@ -19,6 +19,8 @@ const Navbar = () => {
     setToggleMenu(!toggleMenu);
     if (!toggleMenu) {
       document.addEventListener("mousedown", handleClickOutside);
+      const body = document.querySelector('body');
+      body.classList.toggle('no-scroll');
     } else {
       document.removeEventListener("mousedown", handleClickOutside);
     }
@@ -67,6 +69,12 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+
+  function handleNavbarToggle() {
+    const body = document.querySelector('body');
+    body.classList.toggle('no-scroll');
+  }
 
   return (
     <div className="ipc__navbar">
@@ -137,10 +145,10 @@ const Navbar = () => {
                 </Link>
               </p>
               <p>
-                <a href="#ipc" onClick={handleMenuItemClick}>
-                  Us
-                </a>
-              </p>
+              <Link to="/events" onClick={handleMenuItemClick}>
+                Events
+              </Link>
+                </p>
               <Link to="/believe" onClick={handleMenuItemClick}>
                 <p>Believe</p>
               </Link>
