@@ -3,12 +3,12 @@ import "./renew.css";
 import rufus from '../../../assets/rufusRenew.png'
 import floor from '../../../assets/floorSitting.png'
 
-const Empower = () => {
+const Ladies = () => {
     return (
         <div className='renew'>
             <div className='renew_padding'>
             <h1 className='title_for_renew'>Ladies Meetings </h1>
-            <p className='text_for_renew'>Rufus James was inspired to start this this meeting so that young adults can grow deeper in Gods word. From its start it has consistently grown and allowed many to have a greater passion for God.</p>
+            <p className='text_for_renew'>Our ladies conduct monthly meetings in person and through phone call.</p>
             </div>
         <div className='images_at_renew'>
           <img src={rufus}></img>
@@ -22,4 +22,4 @@ const Empower = () => {
       )
     }
 
-export default Empower;
+export default Ladies;

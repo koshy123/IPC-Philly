@@ -117,7 +117,7 @@ const Navbar = () => {
               href="https://www.youtube.com/@ipcphillychurch/streams/live"
               onClick={handleMenuItemClick}
             >
-              <img className='navbarYoutube' src={youtube}></img>
+             Youtube
             </a>
           </p>
         </div>
