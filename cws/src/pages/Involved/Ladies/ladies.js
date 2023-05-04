@@ -1,6 +1,6 @@
 import React from 'react';
-import rufus from '../../../assets/rufusRenew.png'
-import floor from '../../../assets/floorSitting.png'
+import wedding_ladies from '../../assets/wedding-ladies.jpg'
+import ladies_sing from '../../assets/ladies-sing.jpg'
 import './ladies.css'
 
 const Ladies = () => {
@@ -11,8 +11,8 @@ const Ladies = () => {
             <p className='text_for_renew'>Our ladies conduct monthly meetings in person and through phone call.</p>
             </div>
         <div className='images_at_renew'>
-          <img src={rufus}></img>
-          <img src={floor}></img>
+          <img src={ladies_sing}></img>
+          <img src={wedding_ladies}></img>
         </div>
         <div className='meeting_times'>
             <h1 className='title_for_renew'>Join </h1>

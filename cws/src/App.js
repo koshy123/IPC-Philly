@@ -48,7 +48,7 @@ function App() {
         <Route path='/missions' element={<Missions />} />
         <Route path='/worship' element={<Worship />} />
         <Route path='/sunday-school' element={<SundaySchool />} />
-
+        
         <Route path='/' element={[<Header/>,<Welcome/>, <Info/>]} />
       </Routes>
       <footer><Footer /></footer>

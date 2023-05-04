@@ -1,18 +1,18 @@
 import React from 'react';
 import ".././Renew/renew.css";
-import rufus from '../../../assets/rufusRenew.png'
-import floor from '../../../assets/floorSitting.png'
+import sherin from '../../assets/SherinPray.png'
+import nursing from '../../assets/nursingHome.png'
 
 const Missions = () => {
     return (
         <div className='renew'>
             <div className='renew_padding'>
-            <h1 className='title_for_renew'>Renew </h1>
-            <p className='text_for_renew'>Rufus James was inspired to start this this meeting so that young adults can grow deeper in Gods word. From its start it has consistently grown and allowed many to have a greater passion for God.</p>
+            <h1 className='title_for_renew'>Missions </h1>
+            <p className='text_for_renew'>As commanded by Jesus Christ through the Great Commission, we are obedient to his word by spready the gospel through various outlets. </p>
             </div>
         <div className='images_at_renew'>
-          <img src={rufus}></img>
-          <img src={floor}></img>
+          <img src={sherin}></img>
+          <img src={nursing}></img>
         </div>
         <div className='meeting_times'>
             <h1 className='title_for_renew'>Join </h1>
