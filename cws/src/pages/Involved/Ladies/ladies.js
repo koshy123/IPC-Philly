@@ -1,7 +1,7 @@
 import React from 'react';
-import "./renew.css";
 import rufus from '../../../assets/rufusRenew.png'
 import floor from '../../../assets/floorSitting.png'
+import './ladies.css'
 
 const Ladies = () => {
     return (

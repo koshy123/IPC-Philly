@@ -12,7 +12,9 @@ const Brand = () => {
     </Link>
     </div>
     <div>
+      <Link to="/ladies">
       <img src={ladies_ministry} />
+      </Link>
     </div>
     <div>
       <img src={missions} />

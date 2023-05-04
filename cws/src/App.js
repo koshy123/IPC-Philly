@@ -12,7 +12,7 @@ import Welcome from './containers/welcome/Welcome';
 import Involved from './pages/Involved/Involved';
 import Events from './pages/Events/Events';
 import ContactForm from './containers/header/ContactForm';
-
+import Ladies from './pages/Involved/Ladies/ladies';
 
 function App() {
   const location = useLocation();
@@ -39,6 +39,7 @@ function App() {
         <Route path='/history' element={<History />} />
         <Route path='/pastor' element={<Pastor />} />
         <Route path='/team' element={<Team />} />
+        <Route path='/ladies' element={<Ladies />} />
 
         <Route path='/' element={[<Header/>,<Welcome/>, <Info/>]} />
       </Routes>
