@@ -1,5 +1,5 @@
 import React from 'react';
-import "./renew.css";
+import ".././Renew/renew.css";
 import rufus from '../../../assets/rufusRenew.png'
 import floor from '../../../assets/floorSitting.png'
 

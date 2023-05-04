@@ -13,6 +13,11 @@ import Involved from './pages/Involved/Involved';
 import Events from './pages/Events/Events';
 import ContactForm from './containers/header/ContactForm';
 import Ladies from './pages/Involved/Ladies/ladies';
+import Missions from './pages/Involved/Missions/Missions';
+import Worship from './pages/Involved/Worship/Worship';
+import SundaySchool from './pages/Involved/SundaySchool/SundaySchool';
+
+
 
 function App() {
   const location = useLocation();
@@ -40,6 +45,9 @@ function App() {
         <Route path='/pastor' element={<Pastor />} />
         <Route path='/team' element={<Team />} />
         <Route path='/ladies' element={<Ladies />} />
+        <Route path='/missions' element={<Missions />} />
+        <Route path='/worship' element={<Worship />} />
+        <Route path='/sunday-school' element={<SundaySchool />} />
 
         <Route path='/' element={[<Header/>,<Welcome/>, <Info/>]} />
       </Routes>
