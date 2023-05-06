@@ -39,12 +39,13 @@
     flex-direction: row;
     color: white;
     margin: 100px 100px;
+    width: 100%;
 
 
   }
 
   .meet_the_team_about_box{
-    width: 33%;
+    width: 100%;
     height: 50%;
   }
 
@@ -89,7 +90,7 @@
 
 
   /* History */
-
+--------------------------------------------------------------------------------------------------------------------
 
   .history_header_container{
     background-image: url("../assets/history_banner.png");
@@ -116,6 +117,7 @@
 
 
  /* Team */
+ --------------------------------------------------------------------------------------------------------------------
 
  .team_header_container{
   background-image: url("../assets/ammachi.png");
@@ -161,6 +163,7 @@
 
 
  /* Pastor */
+ --------------------------------------------------------------------------------------------------------------------
 
  .pastor_header_container{
   background-image: url("../assets/Pastor_Pastor.png");

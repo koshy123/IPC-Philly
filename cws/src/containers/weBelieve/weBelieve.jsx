@@ -30,8 +30,9 @@ const Features = () => {
   return (
     <div className="ipc__features section__padding" id="beliefs">
     <div className="ipc__features-heading">
+      
       <h1 className="gradient__text">“For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life." -John 3:16</h1>
-      <p>Our Beliefs</p>
+      <h1 className='belief_header'>Our Beliefs</h1>
     </div>
     <div className="ipc__features-container">
       {featuresData.map((item, index) => (

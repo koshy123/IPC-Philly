@@ -45,6 +45,12 @@
     color: var(--color-text);
 }
 
+.belief_header{
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
 @media screen and (max-width: 550px) {
     .ipc__features-container__feature-title h1 {
         font-size: 14px;
