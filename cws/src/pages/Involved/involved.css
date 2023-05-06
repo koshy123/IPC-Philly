@@ -1,5 +1,5 @@
 .involved_header{
-    background-image: url("../assets/AboutBanner.png");
+    background-image: url("../assets/rufusPreach.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,7 +12,7 @@
 }
 
 .involved_header h1{
-    color: white;
+    color: black;
     font-size: 5rem;
     text-align: center;
 }

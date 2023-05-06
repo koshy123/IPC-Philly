@@ -8,10 +8,11 @@ const Missions = () => {
         <div className='renew'>
             <div className='renew_padding'>
             <h1 className='title_for_renew'>Missions </h1>
-            <p className='text_for_renew'>As commanded by Jesus Christ through the Great Commission, we are obedient to his word by spready the gospel through various outlets. </p>
             </div>
         <div className='images_at_renew'>
           <img src={sherin}></img>
+          <p className='text_for_renew'>As commanded by Jesus Christ through the Great Commission, we are obedient to his word by spready the gospel through various outlets. </p>
+
           <img src={nursing}></img>
         </div>
         <div className='meeting_times'>

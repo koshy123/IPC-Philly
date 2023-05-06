@@ -8,10 +8,10 @@ const Ladies = () => {
         <div className='renew'>
             <div className='renew_padding'>
             <h1 className='title_for_renew'>Ladies Meetings </h1>
-            <p className='text_for_renew'>Our ladies conduct monthly meetings in person and through phone call.</p>
             </div>
         <div className='images_at_renew'>
           <img src={ladies_sing}></img>
+          <p className='text_for_renew'>Our ladies conduct monthly meetings in person and through phone call.</p>
           <img src={wedding_ladies}></img>
         </div>
         <div className='meeting_times'>

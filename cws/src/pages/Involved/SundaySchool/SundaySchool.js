@@ -8,9 +8,6 @@ const SundaySchool = () => {
         <div className='renew'>
             <div className='renew_padding'>
             <h1 className='title_for_renew'>Sunday School </h1>
-            <p className='text_for_renew'>
-              Our award winning Sunday School staff and students study the word of God with passion.
-            </p>
             </div>
         <div className='images_at_renew'>
           <img src={rufus}></img>
