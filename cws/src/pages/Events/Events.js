@@ -6,8 +6,7 @@ const Events = () => {
 
   return (
     <div>
-            <div data-tockify-component="calendar" data-tockify-calendar="ipcphilly">                    
-            </div>
+            <div data-tockify-component="calendar" data-tockify-calendar="ipcphilly"></div>
     </div>
     
   );
