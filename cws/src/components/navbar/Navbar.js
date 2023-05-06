@@ -62,7 +62,7 @@ const Navbar = () => {
       } else {
         // Remove the class and style to restore the original size
         navbar.classList.remove("ipc__navbar--small");
-        logoImg.style.maxHeight = "70px";
+        logoImg.style.maxHeight = "100px";
       }
     };
   
