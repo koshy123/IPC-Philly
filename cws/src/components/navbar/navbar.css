@@ -210,11 +210,11 @@
  .ipc__navbar-menu_container {
    background-color: rgba(0, 0, 0, 0.827);
    position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-z-index: 10;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 10;
 
  }
  
@@ -228,6 +228,7 @@ z-index: 10;
 .ipc__navbar-menu_container-links-sign {
    display: block;
 }
+
 
 .ipc__navbar-links_logo, img {
    width: 155px;

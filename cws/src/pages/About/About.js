@@ -18,7 +18,7 @@ const About = () => {
         <div className='meet_the_team_about_box'>
             <Link to='/history'>
             <h4 className='items_about'> History</h4> 
-            <img src={church}/></Link>
+            <img src={church}></img></Link>
             {/* <p className='about_under_image'>Was founded back in 1990 by the grace of God. To hold a stand of holiness and follow Gods word.</p> */}
         </div>
 
