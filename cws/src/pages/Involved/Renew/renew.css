@@ -5,6 +5,10 @@
     display: flex;
     justify-content: space-around;
     background-color: black;
+
+}
+.images_at_renew img{
+    width: 30rem;
 }
 
 .text_for_renew{

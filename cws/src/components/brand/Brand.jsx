@@ -11,11 +11,11 @@ const Brand = () => {
       <img src={renew}/>
     </Link>
     </div>
-    <div>
+    {/* <div>
     <Link to="/empower">
       <img src={renew}/>
     </Link>
-    </div>
+    </div> */}
     <div>
       <Link to="/ladies">
       <img src={ladies_ministry} />

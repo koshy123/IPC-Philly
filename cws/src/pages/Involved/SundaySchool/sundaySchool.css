@@ -1,0 +1,12 @@
+.sundaySchool_padding{
+    background-image: url("./GirlsSing.png");
+    padding: 200px 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
