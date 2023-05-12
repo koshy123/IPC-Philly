@@ -1,6 +1,5 @@
 import React from 'react';
-import './about.css'
-
+import './pastor.css';
 
 const Pastor = () => {
     return (

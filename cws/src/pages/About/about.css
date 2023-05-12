@@ -7,8 +7,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-
   }
 
 
@@ -85,108 +83,11 @@
       color: white;
       width: 100%;
       margin-bottom: 40px;
-  
-  
     }
-
-  }
-
-  /* History */
---------------------------------------------------------------------------------------------------------------------
-
-  .history_header_container{
-    background-image: url("../assets/history_banner.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
 
-  .history_header_container h1 {
-    color: white;
-    font-size: 5rem;
-    text-align: center;
-  }
- .history_text_main{
-  text-align: center;
-  margin-top: 100px;
-  padding-bottom: 200px;
- }
-
-
- /* Team */
- --------------------------------------------------------------------------------------------------------------------
-
- .team_header_container{
-  background-image: url("../assets/ammachi.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.team_header_container h1 {
-  color: white;
-  font-size: 5rem;
-  text-align: center;
-}
 
 
 
-.team_text_main {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 20px;
-  margin-left: 10%;
-}
-  
 
-.teamster_text_main  {
-  height: 200px;
-}
-.teamster_text_main h1{
-  color: white;
-}
-
-
-.teamster_text_main img{
-  height: 50%;
-  width: auto;
-}
-
-
- /* Pastor */
- --------------------------------------------------------------------------------------------------------------------
-
- .pastor_header{
-  background-color: aqua;
-}
-
-
-.pastor_header_container h1 {
-  color: white;
-  font-size: 5rem;
-  text-align: center;
-}
-
-
-.pastor_text_main {
-text-align: center;
-margin-top: 100px;
-padding-bottom: 200px;
-color: white;
-}
-
-
-.pastor_header_title{
-  color: white;
-}

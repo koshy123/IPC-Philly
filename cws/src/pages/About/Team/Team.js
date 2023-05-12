@@ -1,13 +1,12 @@
 import React from 'react';
-import './about.css'
-import Santhosh from '../assets/santhosh.jpg'
-import Renji from '../assets/renji.jpg'
-import Jomon from '../assets/jomon.jpg'
-import Jolly from '../assets/jolly.jpg'
-import Aaron from '../assets/aaron.jpg'
-import Jairus from '../assets/jairus.jpg'
-import Mini from '../assets/mini.png'
-
+import Santhosh from '../../assets/santhosh.jpg'
+import Renji from '../../assets/renji.jpg'
+import Jomon from '../../assets/jomon.jpg'
+import Jolly from '../../assets/jolly.jpg'
+import Aaron from '../../assets/aaron.jpg'
+import Jairus from '../../assets/jairus.jpg'
+import Mini from '../../assets/mini.png'
+import './team.css'
 
 
 
