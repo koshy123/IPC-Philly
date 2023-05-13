@@ -1,6 +1,6 @@
 import React from 'react'
 import "./brand.css";
-import { renew, ladies_ministry, missions, prayer, sundaySchool } from './imports'
+import { renew, empower, ladies_ministry, missions, prayer, sundaySchool } from './imports'
 import { Link } from "react-router-dom";
 
 const Brand = () => {
@@ -11,11 +11,11 @@ const Brand = () => {
       <img src={renew}/>
     </Link>
     </div>
-    {/* <div>
+    <div>
     <Link to="/empower">
-      <img src={renew}/>
+      <img src={empower}/>
     </Link>
-    </div> */}
+    </div>
     <div>
       <Link to="/ladies">
       <img src={ladies_ministry} />

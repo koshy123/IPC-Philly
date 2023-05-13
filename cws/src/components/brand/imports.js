@@ -1,11 +1,14 @@
-import renew from "../../assets/renew.png";
-import ladies_ministry from "../../assets/Ladies-Ministry.jpg";
-import missions from "../../assets/missions.jpg";
-import prayer from "../../assets/Praise_Worship.jpeg";
-import sundaySchool from "../../assets/sundaySchool.jpg";
+import renew from "../../assets/renew.jpg";
+import ladies_ministry from "../../assets/ladies_ministry.jpg";
+import missions from "../../assets/missions_outreach.jpg";
+import prayer from "../../assets/worship_logo.jpg";
+import sundaySchool from "../../assets/sunday_logo.jpg";
+import empower from "../../assets/EMPOWER.jpg";
+
 
 export {
     renew,
+    empower,
     ladies_ministry,
     missions,
     prayer,

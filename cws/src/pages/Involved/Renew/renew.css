@@ -1,6 +1,4 @@
-.renew{
 
-}
 .images_at_renew{
     display: flex;
     justify-content: space-around;
@@ -16,13 +14,23 @@
     justify-content: center;
     margin: 5% 5%;
     color: white;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bottom_for_renew{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 80px;
 }
 
 .title_for_renew{
-    color: black;
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2px 0px 1px black;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
 }
 
 .renew_padding{

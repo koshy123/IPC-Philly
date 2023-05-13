@@ -1,8 +1,7 @@
 import React from 'react';
 import ".././Renew/renew.css";
 import "./worship.css"
-import rufus from '../../../assets/rufusRenew.png'
-import floor from '../../../assets/floorSitting.png'
+
 import danielle from "./danielle.png"
 import worship from "./worship1.png"
 const Worship = () => {
@@ -13,12 +12,20 @@ const Worship = () => {
             </div>
         <div className='images_at_renew'>
           <img src={danielle}></img>
-          <p className='text_for_renew'>We have an excellent choir and worship team. There is worship in English and in Malayalam. </p>
+          <p className='worship_text'>
+          <p class="verse">
+            Speaking to one another with psalms, hymns, and songs from the Spirit. Sing and make music from your heart to the Lord
+          </p>
+          <p class="reference">
+            Ephesians 5:19
+          </p>
+    
+          </p>
           <img src={worship}></img>
         </div>
         <div className='meeting_times'>
-            <h1 className='title_for_renew'>Join </h1>
-            <p className='text_for_renew'>Meeting times are.</p>
+            <h1 className=''>Join </h1>
+            <p className='text_for_renew'>Info about workship</p>
             </div>
         </div>
       )

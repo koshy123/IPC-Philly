@@ -8,16 +8,21 @@ const Renew = () => {
         <div className='renew'>
             <div className='renew_padding'>
             <h1 className='title_for_renew'>Renew </h1>
-            
             </div>
         <div className='images_at_renew'>
           <img src={rufus}></img>
-          <p className='text_for_renew'>Rufus James was inspired to start this this meeting so that young adults can grow deeper in Gods word. From its start it has consistently grown and allowed many to have a greater passion for God.</p>
+          <p className='worship_text'>
+          <p class="verse">
+            "Do not be conformed to this world, but be transformed by the renewal of your mind, that by testing you may discern what is the will of God, what is good and acceptable and perfect."
+          </p>
+          <p class="reference">
+            Romans 12:2
+          </p>
+          </p>
           <img src={floor}></img>
         </div>
         <div className='meeting_times'>
-            <h1 className='title_for_renew'>Join </h1>
-            <p className='text_for_renew'>Meeting times are.</p>
+            <p className='text_for_renew'>IPC Philly Renew is a youth ministry designed to engage young people with teaching and discussion of the Word. We have been fortunate enough to see young people from all over the city of Philadelphia gather and spend time in worship, fellowship, and meditation of the scriptures. Our topics are either teaching series with speakers from the city or a book studies. Our prayer is to equip this generation with God’s Word and send them out into schools, campuses, and workplaces as heralds of the Gospel. </p>
             </div>
         </div>
       )

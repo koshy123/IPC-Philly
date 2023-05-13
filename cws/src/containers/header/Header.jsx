@@ -12,8 +12,6 @@ const Header = () => {
 
   return (
     <div className="header_image">
-      <h1>IPC Philly Church</h1>
-     <Link to='/contact' ><button>Contact Us</button></Link> 
   </div>
   );
 };
