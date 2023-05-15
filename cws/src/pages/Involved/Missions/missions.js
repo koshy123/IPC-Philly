@@ -6,8 +6,7 @@ import nursing from '../../assets/nursingHome.png'
 const Missions = () => {
     return (
         <div className='renew'>
-            <div className='renew_padding'>
-            <h1 className='title_for_renew'>Missions </h1>
+            <div className='missions_padding'>
             </div>
         <div className='images_at_renew'>
           <img src={sherin}></img>

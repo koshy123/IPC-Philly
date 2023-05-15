@@ -7,7 +7,6 @@ const Renew = () => {
     return (
         <div className='renew'>
             <div className='renew_padding'>
-            <h1 className='title_for_renew'>Renew </h1>
             </div>
         <div className='images_at_renew'>
           <img src={rufus}></img>

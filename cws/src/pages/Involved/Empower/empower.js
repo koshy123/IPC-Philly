@@ -1,13 +1,12 @@
 import React from 'react';
-import "./renew.css";
+import "./empower.css"
 import rufus from '../../../assets/rufusRenew.png'
 import floor from '../../../assets/floorSitting.png'
 
-const Renew = () => {
+const Empower = () => {
     return (
         <div className='renew'>
-            <div className='renew_padding'>
-            <h1 className='title_for_renew'>Renew </h1>
+            <div className='empower_padding'>
             </div>
         <div className='images_at_renew'>
           <img src={rufus}></img>
@@ -29,4 +28,4 @@ const Renew = () => {
       )
     }
 
-export default Renew;
+export default Empower;

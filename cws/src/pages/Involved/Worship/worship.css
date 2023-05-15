@@ -1,15 +1,9 @@
 .worship_padding{
-    background-image: url('./worship_banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding: 300px 200px;
+    background-image: url('../../assets/worship_header.jpg');
+    background-position: center 50%; /* Center the image horizontally and vertically */
+    background-size: cover; /* Scale the image to cover the entire element */
 }
-
 
 .worship_text{
     padding: 100px 100px;

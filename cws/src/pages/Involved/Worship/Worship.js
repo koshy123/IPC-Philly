@@ -8,7 +8,6 @@ const Worship = () => {
     return (
         <div className='renew'>
             <div className='worship_padding'>
-            <h1 className='title_for_renew'>Worship Team </h1>
             </div>
         <div className='images_at_renew'>
           <img src={danielle}></img>

@@ -16,7 +16,7 @@ import Ladies from './pages/Involved/Ladies/ladies';
 import Missions from './pages/Involved/Missions/Missions';
 import Worship from './pages/Involved/Worship/Worship';
 import SundaySchool from './pages/Involved/SundaySchool/SundaySchool';
-
+import Empower from './pages/Involved/Empower/Empower';
 
 
 function App() {
@@ -48,7 +48,8 @@ function App() {
         <Route path='/missions' element={<Missions />} />
         <Route path='/worship' element={<Worship />} />
         <Route path='/sunday-school' element={<SundaySchool />} />
-        
+        <Route path='/empower' element={<Empower />} />
+
         <Route path='/' element={[<Header/>,<Welcome/>, <Info/>]} />
       </Routes>
       <footer><Footer /></footer>

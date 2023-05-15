@@ -1,0 +1,6 @@
+.ladies_padding{
+    padding: 300px 200px;
+    background-image: url('../../assets/ladies_header.jpg');
+    background-position: center 50%; /* Center the image horizontally and vertically */
+    background-size: cover; /* Scale the image to cover the entire element */
+}

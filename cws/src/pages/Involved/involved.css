@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 .involved_header{
-    background-image: url("../assets/rufusPreach.png");
+    background-image: url("../assets/get_involved.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -25,15 +25,16 @@
 
 
 .involved_header button{
+
     opacity: 1;
     background-color: #FF8A71;
-    color: white;
-    margin-top: 75px;
+    color: black;
+    margin-top: 200px;
   }
   .involved_header button:hover{
     opacity: 1;
     background-color: #FF8A71;
     color: black;
-    margin-top: 75px;
+    margin-top: 200px;
     font-weight: bolder;
   }

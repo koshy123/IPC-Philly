@@ -11,8 +11,7 @@ const Involved = () => {
   return (
     <div className="involved">
       <div className="involved_header">
-        <h1 >Get Involved</h1>
-        <a href="#ipc" ><button  >Sunday Service</button></a>
+        <a href="#ipc" ><button  >Sunday Service Times</button></a>
       </div>
       <Brand />
       <div id="ipc">
