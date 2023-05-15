@@ -22,7 +22,6 @@
 
 
 .involved_header button{
-
     opacity: 1;
     background-color: #FF8A71;
     color: black;
@@ -40,7 +39,7 @@
   @media screen and (max-width: 560px) {
 
     .involved_header {
-      background-image: url("../../assets/involved_header_mobile.JPG");
+      background-image: url("../assets/involved_header_mobile.JPG");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;

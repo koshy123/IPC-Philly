@@ -45,3 +45,15 @@
     padding: 200px 200px;
 
 }
+
+
+
+@media screen and (max-width: 560px) {
+    .renew_padding{
+        padding: 250px 200px;
+        background-image: url('../assets/../../assets/renew_header_mobile.JPG');
+        background-position: center 50%; /* Center the image horizontally and vertically */
+        background-size: cover; /* Scale the image to cover the entire element */
+    
+    }
+    }

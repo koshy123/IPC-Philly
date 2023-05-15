@@ -58,8 +58,8 @@ const Possibility = () => {
     <div className="ipc__whatIPC-feature">
     {/* <h2 className="title">What is IPC?</h2> */}
   
-    <h2 className="title">What is IPC Philly?</h2>
-    <p className="text">We are a local community church,  Christ-centered, family-focused service to our community.</p>
+    {/* <h2 className="title">What is IPC Philly?</h2>
+    <p className="text">We are a local community church,  Christ-centered, family-focused service to our community.</p> */}
 
   </div>
   </div>
