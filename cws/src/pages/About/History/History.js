@@ -13,8 +13,11 @@ const History = () => {
                 </div>
             </div>
 
-        <div className='history_text_main'>
-            <p>IPC Philly was started in 1990 by the guiding of the Holy Spirit through our founding Senior Pastor Welsey Daniel.</p>
+        <div className='history_text_main'> 
+            <p>IPC Philly was started in 1990 by the guiding of the Holy Spirit through our founding Senior Pastor Welsey Daniel.
+                Their humble start was in a Days In hotel in Philadelphia, PA. To later moving into a rental building, from a church. 
+                Now, by God's grace we were able to purchase our own building on Craig st. With plans to move into a larger facility with our growing congregation. 
+            </p> 
         </div>
 
         </div>
