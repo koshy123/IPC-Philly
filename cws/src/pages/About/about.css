@@ -57,11 +57,10 @@
   }
 
   .meet_the_team_about_box img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
     transition: transform 0.2s ease-out;
-
   }
 
   .meet_the_team_about_box img:hover{

@@ -1,8 +1,8 @@
 import React from 'react';
 import './about.css'
-import church from '../assets/FrontChurch.jpg'
-import kuttu from '../assets/KuttuZephan.jpeg'
-import wesley from '../assets/WesleyPrayStrong.png'
+import church from '../assets/history_logo_about.png'
+import team_logo from '../assets/team_logo.png'
+import wesley from '../assets/pastor_logo_about.png'
 import { Link } from "react-router-dom";
 
 
@@ -30,8 +30,7 @@ const About = () => {
         </div>
         <div className='meet_the_team_about_box'> 
             <Link to='/team'>
-            <h4 className='items_about'>Our Team </h4>  
-            <img src={kuttu} /></Link>
+            <img src={team_logo} /></Link>
             {/* <p className='about_under_image'>Our church would not be able to function without our hardworking team of motivated, God fearing individuals.</p> */}
         </div> 
         </div>

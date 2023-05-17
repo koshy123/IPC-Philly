@@ -1,10 +1,10 @@
 
 .team_header_container{
-    background-image: url("../../assets/ammachi.png");
+    background-image: url("../../assets/team_header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,7 @@
   
   
   .teamster_text_main img{
-    height: 50%;
+    height: 100%;
     width: auto;
   }
   
