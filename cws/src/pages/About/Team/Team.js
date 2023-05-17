@@ -1,11 +1,11 @@
 import React from 'react';
-import Santhosh from '../../assets/santhosh.jpg'
-import Renji from '../../assets/renji.jpg'
-import Jomon from '../../assets/jomon.jpg'
-import Jolly from '../../assets/jolly.jpg'
-import Aaron from '../../assets/youth_director.jpg'
-import Jairus from '../../assets/jairus.jpg'
-import Mini from '../../assets/mini.png'
+import Missions from '../../assets/missions_logo.jpg'
+import Secretery from '../../assets/secretery_logo.jpg'
+import Treasurer from '../../assets/treasurer_logo.jpg'
+import Womens from '../../assets/womens_coordinator_logo.jpg'
+import Youth from '../../assets/youth_director.jpg'
+import Worship from '../../assets/worship_director_logo.jpg'
+import Sunday_School from '../../assets/sunday_school_logo.jpg'
 import './team.css'
 
 
@@ -19,37 +19,37 @@ const Team = () => {
 
         <div className='team_text_main'>
         <div className='teamster_text_main' >
-            <img src={Renji} ></img>
+            <img src={Secretery} ></img>
             <p>Brother Renji Mathew</p>
         </div>
 
         <div className='teamster_text_main'>
-            <img src={Jomon} ></img>
+            <img src={Treasurer} ></img>
             <p>Jomon Mathew</p>
         </div>
 
         <div className='teamster_text_main'>
-            <img src={Jairus} ></img>
+            <img src={Worship} ></img>
             <p> Jairus James</p>
         </div>
 
         <div className='teamster_text_main'>
-            <img src={Aaron} ></img>
+            <img src={Youth} ></img>
             <p>Aaron Alexander</p>
         </div>
 
         <div className='teamster_text_main'>
-            <img src={Jolly} ></img>
+            <img src={Womens} ></img>
             <p>Sister Jolly Daniel</p>
         </div>
 
         <div className='teamster_text_main'>
-            <img src={Santhosh} ></img>
+            <img src={Missions} ></img>
             <p>Brother Santhosh Joseph</p>
         </div>
 
         <div className='teamster_text_main'>
-            <img src={Mini} ></img>
+            <img src={Sunday_School } ></img>
             <p>Sister Mini Alexander</p>
         </div>
 
