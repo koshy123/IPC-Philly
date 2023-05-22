@@ -1,50 +1,68 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './header.scss';
 
 const ContactForm = () => {
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [submitted, setSubmitted] = useState(false);
+  const [message, setMessage] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [sent, setSent] = useState(false);
+  const [error, setError] = useState('');
 
-  const sendEmail = async (e) => {
-    e.preventDefault();
-    const data = { email };
-    const response = await axios.post('https://ipc-backend.herokuapp.com/api/sendemail', data);
-    console.log(response.data);
-    setSubmitted(true);
+  const handleNameChange = (e) => {
+    setName(e.target.value);
   };
 
-  if (submitted) {
-    return (
-      <div className="contact_form">
-        <p>Thank you for your submission. Someone will get back to you shortly. God bless!</p>
-      </div>
-    );
-  }
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleMessageChange = (e) => {
+    setMessage(e.target.value);
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setError('');
+
+    try {
+      await axios.post('http://localhost:5000/api/sendemail', {
+        name,
+        email,
+        message,
+      });
+      setSent(true);
+    } catch (error) {
+      setError('Failed to send email. Please try again.');
+    }
+    setLoading(false);
+  };
 
   return (
-    <div className="contact_form">
-      <form className="--form-control" onSubmit={sendEmail}>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" />
-
-        <label htmlFor="email">Email:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="Enter your email address"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Enter your message"></textarea>
-
-        <button className="contact_form_button" type="submit">
-          Submit
-        </button>
-      </form>
+    <div>
+      {sent ? (
+        <h2>Email Sent Successfully!</h2>
+      ) : (
+        <form onSubmit={handleSubmit}>
+          <label>
+            Name:
+            <input type="text" value={name} onChange={handleNameChange} required />
+          </label>
+          <label>
+            Email:
+            <input type="email" value={email} onChange={handleEmailChange} required />
+          </label>
+          <label>
+            Message:
+            <textarea value={message} onChange={handleMessageChange} required />
+          </label>
+          <button type="submit" disabled={loading}>
+            {loading ? 'Sending...' : 'Send Email'}
+          </button>
+          {error && <p>{error}</p>}
+        </form>
+      )}
     </div>
   );
 };

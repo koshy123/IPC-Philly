@@ -30,6 +30,10 @@
   
   .teamster_text_main  {
     height: 200px;
+    margin: 50px 50px;
+  }
+  .teamster_text_main p  {
+    font-family: Arial;
   }
   .teamster_text_main h1{
     color: white;

@@ -18,6 +18,7 @@ const Team = () => {
             </div>
 
         <div className='team_text_main'>
+
         <div className='teamster_text_main' >
             <img src={Secretery} ></img>
             <p>Brother Renji Mathew</p>
@@ -25,7 +26,7 @@ const Team = () => {
 
         <div className='teamster_text_main'>
             <img src={Treasurer} ></img>
-            <p>Jomon Mathew</p>
+            <p>Brother Jomon Mathew</p>
         </div>
 
         <div className='teamster_text_main'>
@@ -51,6 +52,7 @@ const Team = () => {
         <div className='teamster_text_main'>
             <img src={Sunday_School } ></img>
             <p>Sister Mini Alexander</p>
+            
         </div>
 
         </div>
