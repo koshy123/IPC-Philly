@@ -27,7 +27,7 @@ const ContactForm = () => {
     setError('');
 
     try {
-      await axios.post('http://localhost:5000/api/sendemail', {
+      await axios.post('https://ipc-backend.herokuapp.com/api/sendemail', {
         name,
         email,
         message,

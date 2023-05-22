@@ -1,5 +1,5 @@
 .sundaySchool_padding{
-    background-image: url("./GirlsSing.png");
+    background-image: url("./SundaySchool_header.jpg");
     padding: 200px 200px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,3 +10,13 @@
     align-items: center;
 
 }
+
+
+@media screen and (max-width: 560px) {
+    .sundaySchool_padding{
+        padding: 300px 200px;
+        background-image: url('../../assets/mobile_sundaySchool_header.jpg');
+        background-position: center 50%; /* Center the image horizontally and vertically */
+        background-size: cover; /* Scale the image to cover the entire element */
+    }
+    }
