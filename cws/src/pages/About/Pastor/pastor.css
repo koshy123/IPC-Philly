@@ -28,3 +28,14 @@
   .pastor_header_title{
     color: white;
   }
+
+
+  .pastor_title{
+    color: white;
+    text-align: center;
+  }
+
+  .pastor_text{
+    color: white;
+    margin: 0 100px;
+  }
