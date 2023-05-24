@@ -22,3 +22,19 @@
  }
 
 
+
+   
+ .history_header_title{
+  color: white;
+}
+
+
+.history_title{
+  color: white;
+  text-align: center;
+}
+
+.history_text{
+  color: white;
+  margin: 0 100px;
+}
