@@ -7,7 +7,6 @@ const SundaySchool = () => {
     return (
         <div className='renew'>
             <div className='sundaySchool_padding'>
-            <h1 className='title_for_renew'>Sunday School </h1>
             </div>
         <div className='images_at_renew'>
           <img src={zion}></img>
