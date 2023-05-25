@@ -1,5 +1,4 @@
-import Feature from '../../components/feature/Feature';
-import { sliderData } from "../../slider-data";
+import Feature from './feature/Feature';
 import "./whatIPC.css";
 
 const WhatIPC = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Footer, Info, Features, Header} from './containers'
-import { Navbar } from './components';
+import {  Info, Features} from './Slider'
+import { Navbar, Footer, Header } from './HomePage';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import './App.css'
 import Renew from './pages/Involved/Renew/Renew';
@@ -8,10 +8,10 @@ import About from './pages/About/About'
 import History from './pages/About/History/History';
 import Pastor from './pages/About/Pastor/Pastor';
 import Team from './pages/About/Team/Team';
-import Welcome from './containers/welcome/Welcome';
+import Welcome from './HomePage/welcome/Welcome';
 import Involved from './pages/Involved/Involved';
 import Events from './pages/Events/Events';
-import ContactForm from './containers/header/ContactForm';
+import ContactForm from './HomePage/header/ContactForm';
 import Ladies from './pages/Involved/Ladies/ladies';
 import Missions from './pages/Involved/Missions/Missions';
 import Worship from './pages/Involved/Worship/Worship';

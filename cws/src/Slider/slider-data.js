@@ -1,13 +1,11 @@
-import christmas from './assets/christmas.jpg'
-import group from './assets/food.JPG'
-import chat from './assets/chat.jpg'
-import ladies from './assets/ladies.jpg'
-import baptism from './assets/baptism.jpg'
-import retreat from './assets/ipcRetreat.jpg'
-import Santhosh from './assets/Santhosh.jpg'
-import Easter from './assets/Easter.png'
-import Cooking from './assets/cooking.jpg'
-import Wedding from './assets/wedding.JPG'
+import chat from '../assets/chat.jpg'
+import ladies from '../assets/ladies.jpg'
+import baptism from '../assets/baptism.jpg'
+import retreat from '../assets/ipcRetreat.jpg'
+import Santhosh from '../assets/Santhosh.jpg'
+import Easter from '../assets/Easter.png'
+import Cooking from '../assets/cooking.jpg'
+import Wedding from '../assets/wedding.JPG'
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import Feature from '../../components/feature/Feature';
-import "./features.css";
+import Feature from '../Involved/whatIPC/feature/Feature';
+import "./believe.css";
 
 const Features = () => {
 

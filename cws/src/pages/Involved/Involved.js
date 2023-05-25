@@ -1,6 +1,6 @@
 import "./involved.css";
-import  {Brand}  from "../../components";
-import  {WhatIPC}  from "../../containers";
+import  Brand  from "./brand/Brand.jsx";
+import  {WhatIPC}  from "../../Slider";
 
 const Involved = () => {
   const scrollToWhatIPC = () => {

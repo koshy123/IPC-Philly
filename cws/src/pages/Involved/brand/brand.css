@@ -42,13 +42,7 @@
     }
   }
 
-  @media screen and (max-width: 550px) {
-    .ipc__brand {
 
-
-  background-image: url('../../assets/background.JPG'); 
-    }
-  }
 
   @media screen and (max-width: 550px) {
 
