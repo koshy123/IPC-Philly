@@ -30,29 +30,31 @@ const Team = () => {
         </div>
 
         <div className='teamster_text_main'>
-            <img src={Worship} ></img>
-            <p> Jairus James</p>
+            <img src={Missions} ></img>
+            <p>Brother Santhosh Joseph</p>
         </div>
-
         <div className='teamster_text_main'>
             <img src={Youth} ></img>
             <p>Aaron Alexander</p>
         </div>
 
         <div className='teamster_text_main'>
-            <img src={Womens} ></img>
-            <p>Sister Jolly Daniel</p>
+            <img src={Worship} ></img>
+            <p> Jairus James</p>
         </div>
 
-        <div className='teamster_text_main'>
-            <img src={Missions} ></img>
-            <p>Brother Santhosh Joseph</p>
-        </div>
 
         <div className='teamster_text_main'>
             <img src={Sunday_School } ></img>
             <p>Sister Mini Alexander</p>
             
+        </div>
+
+
+
+        <div className='teamster_text_main'>
+            <img src={Womens} ></img>
+            <p>Sister Jolly Daniel</p>
         </div>
 
         </div>
