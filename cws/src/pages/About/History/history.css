@@ -10,3 +10,22 @@
   }
 
 
+
+
+
+  @media screen and (max-width: 550px) {
+    .history_header_container{
+      background-image: url("../../assets/history_banner.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 40vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  }
+
+
+
