@@ -6,19 +6,16 @@ import './history.css';
 
 const History = () => {
     return (
-        <div className='history_main'>
-            <div className='history_header'>
+        <div className='about_main'>
+            <div className='about_header'>
                 <div className='history_header_container'>
-                    <h1 className='history_header_title'>History</h1>
+                    <h1 className='about_header_title'>History</h1>
                 </div>
             </div>
 
-        <div> 
-            <h1 className='history_title' >A Short History</h1>
-            <p className='history_text' >
-                IPC Philly was started in 1990 by the guiding of the Holy Spirit through our founding Senior Pastor Welsey Daniel.
-                Their humble start was in a Days In hotel in Philadelphia, PA. To later moving into a rental building, from a church. 
-                Now, by God's grace we were able to purchase our own building on Craig st. With plans to move into a larger facility with our growing congregation. 
+        <div className='about_bottom_container'> 
+            <p className='about_bottom_text' >
+            In 1990, IPC Philly was birthed through the divine guidance of the Holy Spirit, under the visionary leadership of our founding Senior Pastor, Welsey Daniel. With humble beginnings at a Days Inn hotel in Philadelphia, PA, our congregation flourished. We transitioned from a rental building to a dedicated church space, and now, through God's abundant grace, we have proudly acquired our own building on Craig St. As our congregation continues to grow, we eagerly anticipate a future move to an even larger facility, propelled by our unwavering faith and the unity that binds us together.
             </p> 
         </div>
 

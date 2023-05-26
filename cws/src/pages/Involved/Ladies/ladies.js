@@ -1,6 +1,7 @@
 import React from 'react';
 import ladies_sing from '../../assets/ladies-sing.jpg'
 import weddding_better from '../../assets/wedding_better.png'
+import { Link } from "react-router-dom";
 
 import './ladies.css'
 
@@ -22,10 +23,11 @@ const Ladies = () => {
           <img src={weddding_better}></img>
         </div>
         <div className='bottom_container_about'>
-            <p className='bottom_text_about'>IPC Philly Renew is a youth ministry designed to engage young people with teaching and discussion of the Word. We have been fortunate enough to see young people from all over the city of Philadelphia gather and spend time in worship, fellowship, and meditation of the scriptures. Our topics are either teaching series with speakers from the city or a book studies. Our prayer is to equip this generation with God’s Word and send them out into schools, campuses, and workplaces as heralds of the Gospel. </p>
+            <p className='bottom_text_about'>
+            The Women's Ministry in our church is a vibrant community that fosters spiritual growth and support among women. Through prayer meetings, they gather either in person or connect through phone calls, creating a space for fellowship and heartfelt conversations that nurture their faith and strengthen their bonds with one another.              </p>
         <div>
               <p className='schedule_about'>
-                <b>When:</b> Meetings are twice a month.(please dm us for more accurate dates and times) <a target='blank' href='https://www.instagram.com/ipcphillyyouth/'>Renew Insta.</a>
+                <b>When:</b> <Link to="/contact">Contact us for more info </Link>
               </p>
         </div>
         </div>

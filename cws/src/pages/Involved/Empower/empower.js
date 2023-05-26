@@ -25,7 +25,7 @@ const Empower = () => {
             Empower Kids is a vibrant and engaging program specifically designed for the younger members of our church. Through interactive teaching, creative activities, and meaningful discussions, Empower Kids aims to empower children with the knowledge and understanding of the Word of God. We are grateful to witness children from our church community coming together, building friendships, and delving into worship, fellowship, and exploration of the Scriptures. Our sessions consist of captivating teaching series delivered by dedicated leaders or captivating book studies that capture the imaginations of young hearts. Our heartfelt prayer is to equip this younger generation with the timeless truths of the Gospel, enabling them to confidently shine God's light in their schools, communities, and future endeavors.              </p>
             <div>
               <p className='schedule_about'>
-                <b>When:</b> Meetings are twice a month.(please dm us for more accurate dates and times) <a target='blank' href='https://www.instagram.com/ipcphillyyouth/'> Insta</a>
+                <b>When:</b> Meetings are twice a month.( message us for date and time) <a target='blank' href='https://www.instagram.com/ipcphillyyouth/'> Insta</a>
               </p>
             </div>
         </div>

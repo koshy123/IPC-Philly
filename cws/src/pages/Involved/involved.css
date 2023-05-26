@@ -68,6 +68,9 @@
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   flex-direction: column;
+
+  width: 30rem; /* Same width as the images */
+  margin-top: 1rem; /* Adjust margin as desired */
 }
 
 
@@ -85,6 +88,22 @@
 .schedule_about{
   padding-bottom: 50px;
 }
+
+.images_at_renew{
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+
+}
+.images_at_renew img{
+  width: 30rem;
+  height: auto;   
+}
+
 
   @media screen and (max-width: 560px) {
 

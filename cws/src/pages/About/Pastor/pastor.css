@@ -1,4 +1,4 @@
-.pastor_header{
+.pastor_header_container{
   background-image: url("../../assets/Pastor_Pastor.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,34 +9,4 @@
   align-items: center;
 }
   
-  
-  .pastor_header_container h1 {
-    color: white;
-    font-size: 5rem;
-    text-align: center;
-  }
-  
-  
-  .pastor_text_main {
-  text-align: center;
-  margin-top: 100px;
-  padding-bottom: 200px;
-  color: white;
-  }
-  
-  
-  .pastor_header_title{
-    color: white;
-  }
-
-
-  .pastor_title{
-    color: white;
-    text-align: center;
-  }
-
-  .pastor_text{
-    color: white;
-    margin: 0 100px;
-  }
   

@@ -10,31 +10,3 @@
   }
 
 
-.history_header_container h1 {
-    color: white;
-    font-size: 5rem;
-    text-align: center;
-  }
- .history_text_main{
-  text-align: center;
-  margin-top: 100px;
-  padding-bottom: 200px;
- }
-
-
-
-   
- .history_header_title{
-  color: white;
-}
-
-
-.history_title{
-  color: white;
-  text-align: center;
-}
-
-.history_text{
-  color: white;
-  margin: 0 100px;
-}
