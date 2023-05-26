@@ -13,7 +13,7 @@ import Involved from './pages/Involved/Involved';
 import Events from './pages/Events/Events';
 import ContactForm from './HomePage/header/ContactForm';
 import Ladies from './pages/Involved/Ladies/ladies';
-import Missions from './pages/Involved/Missions/Missions';
+import Missions from './pages/Involved/Missions/missions';
 import Worship from './pages/Involved/Worship/Worship';
 import SundaySchool from './pages/Involved/SundaySchool/SundaySchool';
 import Empower from './pages/Involved/Empower/Empower';

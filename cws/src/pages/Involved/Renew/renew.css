@@ -9,15 +9,7 @@
     width: 30rem;
 }
 
-.text_for_renew{
-    display: flex;
-    justify-content: center;
-    margin: 5% 5%;
-    color: white;
-    line-height: 30px;
-    font-size: 20px;
-    font-weight: 500;
-}
+
 
 .bottom_for_renew{
     color: whitesmoke;
@@ -41,9 +33,8 @@
 
 }
 
-.meeting_times{
-    padding: 200px 200px;
-
+.schedule_about a{
+    color: red;
 }
 
 

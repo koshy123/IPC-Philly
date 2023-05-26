@@ -35,6 +35,56 @@
     font-weight: bolder;
   }
 
+.bottom_text{
+  background-color: #FFF;
+}
+
+
+.bottom_text_about{
+  color: black;
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 100px 300px;
+  text-indent: 40px;
+}
+
+
+.verse{
+  font-family: 'Marck Script', cursive;
+  font-size: 20px;
+}
+
+.reference{
+  font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.top_container_about{
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  flex-direction: column;
+}
+
+
+.bottom_container_about{
+  background-color: #FFF;
+  font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.schedule_about{
+  text-align: center;
+  color: black;
+}
+
+.schedule_about{
+  padding-bottom: 50px;
+}
 
   @media screen and (max-width: 560px) {
 

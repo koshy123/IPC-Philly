@@ -12,18 +12,23 @@ const Empower = () => {
           <img src={rufus}></img>
           <p className='worship_text'>
           <p class="verse">
-            "Do not be conformed to this world,[c] but be transformed by the renewal of your mind, that by testing you may discern what is the will of God, what is good and acceptable and perfect."
+            "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint."
           </p>
           <p class="reference">
-            Romans 12:2
+          Isaiah 40:31
           </p>
           </p>
           <img src={floor}></img>
         </div>
-        <div className='meeting_times'>
-            <h1 className='title_for_renew'>Join </h1>
-            <p className='text_for_renew'>Meeting times are.</p>
+        <div className='bottom_container_about'>
+            <p className='bottom_text_about'>
+            Empower Kids is a vibrant and engaging program specifically designed for the younger members of our church. Through interactive teaching, creative activities, and meaningful discussions, Empower Kids aims to empower children with the knowledge and understanding of the Word of God. We are grateful to witness children from our church community coming together, building friendships, and delving into worship, fellowship, and exploration of the Scriptures. Our sessions consist of captivating teaching series delivered by dedicated leaders or captivating book studies that capture the imaginations of young hearts. Our heartfelt prayer is to equip this younger generation with the timeless truths of the Gospel, enabling them to confidently shine God's light in their schools, communities, and future endeavors.              </p>
+            <div>
+              <p className='schedule_about'>
+                <b>When:</b> Meetings are twice a month.(please dm us for more accurate dates and times) <a target='blank' href='https://www.instagram.com/ipcphillyyouth/'> Insta</a>
+              </p>
             </div>
+        </div>
         </div>
       )
     }
