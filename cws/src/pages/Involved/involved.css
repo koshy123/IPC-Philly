@@ -83,10 +83,8 @@
 .schedule_about{
   text-align: center;
   color: black;
-}
-
-.schedule_about{
   padding-bottom: 50px;
+
 }
 
 .images_at_renew{
@@ -107,16 +105,44 @@
 
   @media screen and (max-width: 560px) {
 
-    .involved_header {
-      background-image: url("../assets/involved_header_mobile.JPG");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      height: 80vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+    .images_at_renew img{
+      display: none;
     }
     
     }
+
+
+
+    @media screen and (max-width: 560px) {
+
+      .involved_header {
+        background-image: url("../assets/involved_header_mobile.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .bottom_text_about{
+        color: black;
+        display: flex;
+        justify-content: center;
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 20px;
+        
+      
+      }
+      .schedule_about{
+        text-align: center;
+        color: black;
+       font-size: 15px;
+      }
+
+      
+      }
