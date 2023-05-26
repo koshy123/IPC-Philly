@@ -126,17 +126,7 @@ a {
         }
 
         .aboutIPC{
-            background-color: transparent;
-            margin-top: -70px;
-            margin-bottom: -20px;
+        display: none;
         }
 
-        .slider {
-            width: 100%;
-            height: 300px;
- 
-        }
-        .ipc__whatIPC {
-            margin-top: 0 0;
-        }
 }
