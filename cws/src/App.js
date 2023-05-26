@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect}  from 'react'
 import {  Info, Features} from './Slider'
 import { Navbar, Footer, Header } from './HomePage';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
@@ -23,9 +23,19 @@ function App() {
   const location = useLocation();
   const isHomePage = location.pathname === '/';
 
-
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+  
+    return null;
+  }
   return (
     <div className="App">
+            <ScrollToTop /> {/* Render the ScrollToTop component */}
+
       {isHomePage && (
         <div className='header__background'></div>
       )}
