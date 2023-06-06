@@ -4,7 +4,6 @@ Live Site- www.ipcphillychurch.org
 
 
 ## Overview 
-IPC-Philly is a small, local, cultural, and religious organization. Upon hearing that the previous member who ran their website had not maintained it, and thus it was taken down, I offered to help build a new site from scratch using my knowledge in React.js, Node.js, HTML, and CSS. 
 The goal of the site is to provide information about their organization, similar to a business website or a charity's website. There is also a backend for new users to submit a contact form, which utilizes nodemailer.
 
 
@@ -13,8 +12,13 @@ After doing a git clone, just run "npm install" to install all dependencies need
 
 
 ## Languages 
-javascript, react.js, node.js
+javascript, react.js, node.js, css
 
 ## Backend
 [github repo](https://github.com/koshy123/ipcBackend)
+
+
+## Current Project 
+Currently I am building a calender for the website. This is because the previous API calender I used asked me to sign up for a premium subscription. 
+
 
