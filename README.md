@@ -9,7 +9,7 @@ The goal of the site is to provide information about their organization, similar
 
 ## Installation
 After doing a git clone, just run "npm install" to install all dependencies needed to run the site. Then, run "npm run start" from the root folder to open the project on your local host.
-
+good luck 
 
 ## Languages 
 javascript, react.js, node.js, css
