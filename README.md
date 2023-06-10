@@ -16,7 +16,7 @@ javascript, react.js, node.js, css
 
 ## Backend
 [github repo](https://github.com/koshy123/ipcBackend)
-
+the backend contains a contact form. 
 
 ## Current Project 
 Currently I am building a calender for the website. This is because the previous API calender I used asked me to sign up for a premium subscription. 
