@@ -12,7 +12,7 @@ After doing a git clone, just run "npm install" to install all dependencies need
 good luck 
 
 ## Languages 
-javascript, react.js, node.js, css
+javascript, react.js, node.js, css, express.js
 
 ## Backend
 [github repo](https://github.com/koshy123/ipcBackend)
