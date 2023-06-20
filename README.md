@@ -19,6 +19,6 @@ javascript, react.js, node.js, css, express.js
 the backend contains a contact form. 
 
 ## Current Project 
-Currently I am building a calender for the website. This is because the previous API calender I used asked me to sign up for a premium subscription. 
+Currently I am building a calender for the website. This is because the previous API calender I used asked me to sign up for a premium subscription. This calender will have full CRUD and only certain users can us it. 
 
 
