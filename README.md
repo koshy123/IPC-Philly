@@ -12,11 +12,12 @@ After doing a git clone, just run "npm install" to install all dependencies need
 good luck 
 
 ## Languages 
-javascript, react.js, node.js, css, express.js
+javascript, react.js, node.js, css, express.js. 
 
 ## Backend
 [github repo](https://github.com/koshy123/ipcBackend)
 the backend contains a contact form. 
+we also did pull a backend api for the calender from tockify. 
 
 ## Current Project 
 Currently I am building a calender for the website. This is because the previous API calender I used asked me to sign up for a premium subscription. This calender will have full CRUD and only certain users can us it. 
