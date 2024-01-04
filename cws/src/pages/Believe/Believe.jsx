@@ -6,7 +6,7 @@ const Features = () => {
 
   const featuresData = [
     {
-      title: 'One True God',
+      title: 'Only One True God',
       text: 'There is one and only one living and true God, everlasting of infinite power, wisdom, and goodness. He is an intelligent, spiritual, and personal being the Creator, Redeemer, Preserver, and the ruler of all things, both visible and invisible. God is infinite in holiness and all other perfections.',
     },
     {

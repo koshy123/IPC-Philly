@@ -5,6 +5,11 @@ import moment from 'moment';
 import Modal from 'react-modal';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 
+
+//firebase
+import { auth } from '../../firebase';
+
+
 const localizer = momentLocalizer(moment);
 {/* <div data-tockify-component="calendar" data-tockify-calendar="ipcphilly"></div> */}
 
@@ -17,6 +22,8 @@ const Events = () => {
   const [formTitle, setFormTitle] = useState('');
   const [formStart, setFormStart] = useState('');
   const [formEnd, setFormEnd] = useState('');
+
+
 
   const handleSelectEvent = (event) => {
     setSelectedEvent(event);

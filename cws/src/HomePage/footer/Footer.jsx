@@ -1,5 +1,5 @@
 /* global google */
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./footer.css";
 import ipcLogo from '../../assets/ipcTitle.png';
 import instagram from'../../assets/instagram.png';
@@ -7,9 +7,21 @@ import youtube from'../../assets/youtube.png';
 import facebook from'../../assets/facebook.png';
 import { Loader } from '@googlemaps/js-api-loader';
 import { Link } from "react-router-dom";
-
+import SignInPage from './SignInPage';
 
 const Footer = () => {
+
+  const [showSignIn, setShowSignIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const handleSignInClick = () => {
+    setShowSignIn(true);
+  };
+
+  const handleSignIn = (loggedIn) => {
+    setIsLoggedIn(loggedIn);
+    setShowSignIn(false);
+  };
 
 function GoogleMap() {
   useEffect(() => {
@@ -73,8 +85,9 @@ function GoogleMap() {
       <div className="ipc__footer-links_div">
         <h4>About</h4>
         <Link to="/about"> <p>History</p></Link> 
-        <Link to="/believe"><p>Beliefs</p></Link>
-        <Link to='/team'><p>Our Team</p></Link>
+        <Link to="/believe"><p>Beliefs</p></Link>  
+        <Link to='/team'><p>Our Team</p></Link> 
+
       </div>
     </div>
       <div className="ipc__footer-links_div">
@@ -82,6 +95,18 @@ function GoogleMap() {
         <p>7781 Craig Street Philadelphia, PA 19136</p>
         <p>ipcphillychurch@gmail.com
         </p>
+        {isLoggedIn ? (
+        // Show adjustable and visible items for signed-in users
+        <div>
+          <p>Welcome, User!</p>
+          {/* Add your adjustable and visible components here */}
+        </div>
+      ) : (
+        // Show sign-in button
+        <button onClick={handleSignInClick}>Sign In</button>
+      )}
+
+      {showSignIn && <SignInPage onSignIn={handleSignIn} />}
       </div>
     </div>
 

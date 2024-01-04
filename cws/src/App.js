@@ -59,7 +59,6 @@ function App() {
         <Route path='/worship' element={<Worship />} />
         <Route path='/sunday-school' element={<SundaySchool />} />
         <Route path='/empower' element={<Empower />} />
-
         <Route path='/' element={[<Header/>,<Welcome/>, <Info/>]} />
       </Routes>
       <footer><Footer /></footer>
